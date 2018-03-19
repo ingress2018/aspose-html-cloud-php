@@ -1,6 +1,6 @@
 # Client\Invoker\ConversionApi
 
-All URIs are relative to *https://api.aspose.cloud/v1.1*
+All URIs are relative to *https://api-qa.aspose.cloud/v1.1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -10,9 +10,9 @@ Method | HTTP request | Description
 [**conversionGetConvertDocumentToPdfByUrl**](ConversionApi.md#conversionGetConvertDocumentToPdfByUrl) | **GET** /html/convert/pdf | Convert the HTML page from the web by its URL to PDF.
 [**conversionGetConvertDocumentToXps**](ConversionApi.md#conversionGetConvertDocumentToXps) | **GET** /html/{name}/convert/xps | Convert the HTML document from the storage by its name to XPS.
 [**conversionGetConvertDocumentToXpsByUrl**](ConversionApi.md#conversionGetConvertDocumentToXpsByUrl) | **GET** /html/convert/xps | Convert the HTML page from the web by its URL to XPS.
-[**conversionPutConvertDocumentToImage**](ConversionApi.md#conversionPutConvertDocumentToImage) | **PUT** /html/convert/image/{outFormat} | Convert the HTML document to the specified image format.
-[**conversionPutConvertDocumentToPdf**](ConversionApi.md#conversionPutConvertDocumentToPdf) | **PUT** /html/convert/pdf | Convert the HTML document to PDF.
-[**conversionPutConvertDocumentToXps**](ConversionApi.md#conversionPutConvertDocumentToXps) | **PUT** /html/convert/xps | Convert the HTML document to XPS.
+[**conversionPutConvertDocumentToImage**](ConversionApi.md#conversionPutConvertDocumentToImage) | **PUT** /html/convert/image/{outFormat} | Convert the HTML document to the specified image format. Input document should be passed in the request content.
+[**conversionPutConvertDocumentToPdf**](ConversionApi.md#conversionPutConvertDocumentToPdf) | **PUT** /html/convert/pdf | Convert the HTML document to PDF. Input document should be passed in the request content.
+[**conversionPutConvertDocumentToXps**](ConversionApi.md#conversionPutConvertDocumentToXps) | **PUT** /html/convert/xps | Convert the HTML document to XPS. Input document should be passed in the request content.
 
 
 # **conversionGetConvertDocumentToImage**
@@ -40,8 +40,8 @@ $top_margin = 56; // int | Top resulting image margin.
 $bottom_margin = 56; // int | Bottom resulting image margin.
 $x_resolution = 56; // int | Horizontal resolution of resulting image.
 $y_resolution = 56; // int | Vertical resolution of resulting image.
-$folder = "folder_example"; // string | The document folder.
-$storage = "storage_example"; // string | The document storage.
+$folder = "folder_example"; // string | The source document folder.
+$storage = "storage_example"; // string | The source document storage.
 
 try {
     $result = $apiInstance->conversionGetConvertDocumentToImage($name, $out_format, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin, $x_resolution, $y_resolution, $folder, $storage);
@@ -66,8 +66,8 @@ Name | Type | Description  | Notes
  **bottom_margin** | **int**| Bottom resulting image margin. | [optional]
  **x_resolution** | **int**| Horizontal resolution of resulting image. | [optional]
  **y_resolution** | **int**| Vertical resolution of resulting image. | [optional]
- **folder** | **string**| The document folder. | [optional]
- **storage** | **string**| The document storage. | [optional]
+ **folder** | **string**| The source document folder. | [optional]
+ **storage** | **string**| The source document storage. | [optional]
 
 ### Return type
 
@@ -408,7 +408,7 @@ No authorization required
 # **conversionPutConvertDocumentToImage**
 > \SplFileObject conversionPutConvertDocumentToImage($out_format, $out_path, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin, $x_resolution, $y_resolution, $storage)
 
-Convert the HTML document to the specified image format.
+Convert the HTML document to the specified image format. Input document should be passed in the request content.
 
 ### Example
 ```php
@@ -475,7 +475,7 @@ No authorization required
 # **conversionPutConvertDocumentToPdf**
 > \SplFileObject conversionPutConvertDocumentToPdf($out_path, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin, $storage)
 
-Convert the HTML document to PDF.
+Convert the HTML document to PDF. Input document should be passed in the request content.
 
 ### Example
 ```php
@@ -536,7 +536,7 @@ No authorization required
 # **conversionPutConvertDocumentToXps**
 > \SplFileObject conversionPutConvertDocumentToXps($out_path, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin, $storage)
 
-Convert the HTML document to XPS.
+Convert the HTML document to XPS. Input document should be passed in the request content.
 
 ### Example
 ```php

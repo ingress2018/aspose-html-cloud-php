@@ -1,13 +1,13 @@
 # Client\Invoker\TranslationApi
 
-All URIs are relative to *https://api.aspose.cloud/v1.1*
+All URIs are relative to *https://api-qa.aspose.cloud/v1.1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**translationGetTranslateDocument**](TranslationApi.md#translationGetTranslateDocument) | **GET** /html/{name}/translate/{srcLang}/{resLang} | Translate the HTML document specified by the name from default or specified storage.
-[**translationGetTranslateDocumentByUrl**](TranslationApi.md#translationGetTranslateDocumentByUrl) | **GET** /html/translate/{srcLang}/{resLang} | Translate the HTML document specified by its URL.
-[**translationPutTranslateDocument**](TranslationApi.md#translationPutTranslateDocument) | **PUT** /html/{name}/translate/{srcLang}/{resLang} | Translate the HTML document specified by the name from default or specified storage.
-[**translationPutTranslateDocumentByUrl**](TranslationApi.md#translationPutTranslateDocumentByUrl) | **PUT** /html/translate/{srcLang}/{resLang} | Translate the HTML document specified by its URL.
+[**translationGetTranslateDocumentByUrl**](TranslationApi.md#translationGetTranslateDocumentByUrl) | **GET** /html/translate/{srcLang}/{resLang} | Translate the HTML document from Web specified by its URL.
+[**translationPutTranslateDocument**](TranslationApi.md#translationPutTranslateDocument) | **PUT** /html/{name}/translate/{srcLang}/{resLang} | Translate the HTML document specified by the name from default or specified storage. Result document will be saved into the default or specified storage; result path will be like /{folder}/{name}_{lang_pair}.{extension}.
+[**translationPutTranslateDocumentByUrl**](TranslationApi.md#translationPutTranslateDocumentByUrl) | **PUT** /html/translate/{srcLang}/{resLang} | Translate the HTML document from Web specified by its URL.  Result document will be saved into the default or specified storage; result path will be like /{folder}/{name}_{lang_pair}.{extension}.
 
 
 # **translationGetTranslateDocument**
@@ -28,8 +28,8 @@ $apiInstance = new Client\Invoker\Api\TranslationApi(
 $name = "name_example"; // string | Document name.
 $src_lang = "src_lang_example"; // string | Source language.
 $res_lang = "res_lang_example"; // string | Result language.
-$storage = "storage_example"; // string | The document storage.
-$folder = "folder_example"; // string | The document folder.
+$storage = "storage_example"; // string | The source document storage.
+$folder = "folder_example"; // string | The source document folder.
 
 try {
     $result = $apiInstance->translationGetTranslateDocument($name, $src_lang, $res_lang, $storage, $folder);
@@ -47,8 +47,8 @@ Name | Type | Description  | Notes
  **name** | **string**| Document name. |
  **src_lang** | **string**| Source language. |
  **res_lang** | **string**| Result language. |
- **storage** | **string**| The document storage. | [optional]
- **folder** | **string**| The document folder. | [optional]
+ **storage** | **string**| The source document storage. | [optional]
+ **folder** | **string**| The source document folder. | [optional]
 
 ### Return type
 
@@ -68,7 +68,7 @@ No authorization required
 # **translationGetTranslateDocumentByUrl**
 > \SplFileObject translationGetTranslateDocumentByUrl($source_url, $src_lang, $res_lang)
 
-Translate the HTML document specified by its URL.
+Translate the HTML document from Web specified by its URL.
 
 ### Example
 ```php
@@ -117,9 +117,9 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **translationPutTranslateDocument**
-> \SplFileObject translationPutTranslateDocument($name, $src_lang, $res_lang, $storage, $folder)
+> \SplFileObject translationPutTranslateDocument($name, $src_lang, $res_lang, $folder, $storage)
 
-Translate the HTML document specified by the name from default or specified storage.
+Translate the HTML document specified by the name from default or specified storage. Result document will be saved into the default or specified storage; result path will be like /{folder}/{name}_{lang_pair}.{extension}.
 
 ### Example
 ```php
@@ -134,11 +134,11 @@ $apiInstance = new Client\Invoker\Api\TranslationApi(
 $name = "name_example"; // string | Document name.
 $src_lang = "src_lang_example"; // string | Source language.
 $res_lang = "res_lang_example"; // string | Result language.
-$storage = "storage_example"; // string | The document storage.
-$folder = "folder_example"; // string | The document folder.
+$folder = "folder_example"; // string | The source & result document folder.
+$storage = "storage_example"; // string | The source & result document storage.
 
 try {
-    $result = $apiInstance->translationPutTranslateDocument($name, $src_lang, $res_lang, $storage, $folder);
+    $result = $apiInstance->translationPutTranslateDocument($name, $src_lang, $res_lang, $folder, $storage);
     print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling TranslationApi->translationPutTranslateDocument: ', $e->getMessage(), PHP_EOL;
@@ -153,8 +153,8 @@ Name | Type | Description  | Notes
  **name** | **string**| Document name. |
  **src_lang** | **string**| Source language. |
  **res_lang** | **string**| Result language. |
- **storage** | **string**| The document storage. | [optional]
- **folder** | **string**| The document folder. | [optional]
+ **folder** | **string**| The source &amp; result document folder. | [optional]
+ **storage** | **string**| The source &amp; result document storage. | [optional]
 
 ### Return type
 
@@ -174,7 +174,7 @@ No authorization required
 # **translationPutTranslateDocumentByUrl**
 > \SplFileObject translationPutTranslateDocumentByUrl($source_url, $src_lang, $res_lang, $folder, $storage)
 
-Translate the HTML document specified by its URL.
+Translate the HTML document from Web specified by its URL.  Result document will be saved into the default or specified storage; result path will be like /{folder}/{name}_{lang_pair}.{extension}.
 
 ### Example
 ```php
