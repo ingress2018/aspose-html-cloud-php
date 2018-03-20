@@ -26,11 +26,12 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace Client\Invoker;
+namespace Client\Invoker\Api;
 
-use \Client\Invoker\Configuration;
+use \Client\Invoker\Config;
 use \Client\Invoker\ApiException;
 use \Client\Invoker\ObjectSerializer;
+use Aspose\Storage\StorageApi;
 
 /**
  * OcrApiTest Class Doc Comment
@@ -43,14 +44,39 @@ use \Client\Invoker\ObjectSerializer;
 class OcrApiTest extends \PHPUnit_Framework_TestCase
 {
 
-    protected static $test;
+    /**
+     * Ocr Api object
+     */
+    private static $api;
+
+    /**
+     * Storage Api
+     */
+    private static $storage;
+
+    /**
+     * Folder with test samples
+     */
+    private static $testFolder;
+
+    /**
+     * Folder for storage result
+     */
+    private static $testResult;
+
 
     /**
      * Setup before running any test cases
      */
     public static function setUpBeforeClass()
     {
-        $test = new Configuration();
+        self::$api = new OcrApi();
+        self::$storage = new StorageApi();
+        self::$storage->apiClient->apiKey = self::$api->config['apiKey'];
+        self::$storage->apiClient->appSid = self::$api->config['appSID'];
+        self::$storage->apiClient->apiServer = self::$api->config['basePath'];
+        self::$testFolder = realpath(__DIR__ . '/../..') . self::$api->config['testData'];
+        self::$testResult = realpath(__DIR__ . '/../..') . self::$api->config['testResult'];
     }
 
     /**
@@ -81,17 +107,33 @@ class OcrApiTest extends \PHPUnit_Framework_TestCase
      * Recognize text from the image file in the storage and import it to HTML format..
      *
      */
-    public function testOcrGetRecognizeAndImportToHtml()
+    public function testOcrGetRecognizeAndImportToHtml($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
-        $this->assertEquals(1, 1);
+        $folder = $folder ?: self::$api->config['remoteFolder'];
+
+        // Upload file to storage
+        self::$storage->PutCreate($folder . "/" . $name, null, null, self::$testFolder . $name);
+
+        //Assert - file exist
+        $res = self::$storage->GetIsExist($folder . "/" . $name, null, null);
+        $this->assertTrue($res->FileExist->IsExist,"Error occured while uploading document");
+
+        //Request to server Api
+        $result = self::$api->OcrGetRecognizeAndImportToHtml($name, $ocr_engine_lang , $folder, $storage);
+
+        $this->assertTrue($result->isFile(),"Error result after recognize");
+        $this->assertTrue($result->getSize() > 0,"Zero result");
+
+        //Copy result to testFolder
+        copy($result->getRealPath(), self::$testResult . $name . "_" . $ocr_engine_lang .".html");
     }
 
     public function providerOcrGetRecognizeAndImportToHtml()
     {
-        return array(
-            array ("test_ocr.png","en"),
-            array ("test_ocr.jpg","en")
-        );
+        return [
+            ["test_ocr.png","en"],
+            ["test_ocr.jpg","en"]
+        ];
     }
 
 
@@ -103,18 +145,32 @@ class OcrApiTest extends \PHPUnit_Framework_TestCase
      * Recognize text from the image file in the storage, import it to HTML format and translate to specified language..
      *
      */
-    public function testOcrGetRecognizeAndTranslateToHtml()
+    public function testOcrGetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
-        $this->assertEquals(1, 1);
+        $folder = $folder ?: self::$api->config['remoteFolder'];
 
+        // Upload file to storage
+        self::$storage->PutCreate($folder . "/" . $name, null, null, self::$testFolder . $name);
+
+        //Assert - file exist
+        $res = self::$storage->GetIsExist($folder . "/" . $name, null, null);
+        $this->assertTrue($res->FileExist->IsExist,"Error occured while uploading document");
+
+        //Request to server Api
+        $result = self::$api->OcrGetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder, $storage);
+
+        $this->assertTrue($result->isFile(),"Error result after recognize");
+        $this->assertTrue($result->getSize() > 0,"Zero result");
+
+        //Copy result to testFolder
+        copy($result->getRealPath(), self::$testResult . $name . "_" . $src_lang . "_". $res_lang . ".html");
     }
 
     public function providerOcrGetRecognizeAndTranslateToHtml()
     {
-        return array(
-            array ("test_ocr.png","en","fr"),
-            array ("test_ocr.jpg","en", "de")
-        );
+        return [
+            ["test_ocr.png","en","fr"],
+            ["test_ocr.jpg","en","de"]
+        ];
     }
-
 }

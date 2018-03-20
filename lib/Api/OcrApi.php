@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Client\Invoker\Client;
+namespace Client\Invoker\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -35,7 +35,7 @@ use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
 use Client\Invoker\ApiException;
-use Client\Invoker\Configuration;
+use Client\Invoker\Config;
 use Client\Invoker\HeaderSelector;
 use Client\Invoker\ObjectSerializer;
 
@@ -52,30 +52,25 @@ class OcrApi
     /**
      * @var ClientInterface
      */
-    protected $client;
+    public $client;
 
     /**
-     * @var Configuration
+     * @var Config
      */
-    protected $config;
+    public $config;
 
     /**
-     * @param ClientInterface $client
-     * @param Configuration   $config
      * @param HeaderSelector  $selector
      */
-    public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
-    ) {
-        $this->client = $client ?: new Client();
-        $this->config = $config ?: new Configuration();
+    public function __construct( HeaderSelector $selector = null ) 
+    {
+        $this->client = Config::getClient();
+        $this->config = Config::getConfig();
         $this->headerSelector = $selector ?: new HeaderSelector();
     }
 
     /**
-     * @return Configuration
+     * @return Config
      */
     public function getConfig()
     {
@@ -352,8 +347,8 @@ class OcrApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -365,7 +360,7 @@ class OcrApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -670,8 +665,8 @@ class OcrApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -683,7 +678,7 @@ class OcrApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -698,10 +693,10 @@ class OcrApi
     protected function createHttpClientOption()
     {
         $options = [];
-        if ($this->config->getDebug()) {
-            $options[RequestOptions::DEBUG] = fopen($this->config->getDebugFile(), 'a');
+        if ($this->config['debug']) {
+            $options[RequestOptions::DEBUG] = fopen($this->config['debugFile'], 'a');
             if (!$options[RequestOptions::DEBUG]) {
-                throw new \RuntimeException('Failed to open the debug file: ' . $this->config->getDebugFile());
+                throw new \RuntimeException('Failed to open the debug file: ' . $this->config['debugFile']);
             }
         }
 

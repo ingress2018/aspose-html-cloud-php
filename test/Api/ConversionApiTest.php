@@ -26,9 +26,9 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace Client\Invoker;
+namespace Client\Invoker\Api;
 
-use \Client\Invoker\Configuration;
+use \Client\Invoker\Config;
 use \Client\Invoker\ApiException;
 use \Client\Invoker\ObjectSerializer;
 

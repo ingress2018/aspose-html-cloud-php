@@ -2,217 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dd7541-46d5-461b-8edd-3f6871d9bbdc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/OAuth2.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/SwaggerClient-php.iml" afterPath="$PROJECT_DIR$/.idea/SwaggerClient-php.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Config.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/OAuth2.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/docs/Api/ConversionApi.md" afterPath="$PROJECT_DIR$/docs/Api/ConversionApi.md" />
-      <change beforePath="$PROJECT_DIR$/docs/Api/DocumentApi.md" afterPath="$PROJECT_DIR$/docs/Api/DocumentApi.md" />
-      <change beforePath="$PROJECT_DIR$/docs/Api/TranslationApi.md" afterPath="$PROJECT_DIR$/docs/Api/TranslationApi.md" />
-      <change beforePath="$PROJECT_DIR$/lib/ApiException.php" afterPath="$PROJECT_DIR$/lib/ApiException.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Client/ConversionApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Client/DocumentApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" afterPath="$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Client/TranslationApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Configuration.php" afterPath="$PROJECT_DIR$/lib/Configuration.php" />
-      <change beforePath="$PROJECT_DIR$/lib/HeaderSelector.php" afterPath="$PROJECT_DIR$/lib/HeaderSelector.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Client/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Client/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/Client/OcrApi.php" afterPath="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Client/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Configuration.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lib/ObjectSerializer.php" afterPath="$PROJECT_DIR$/lib/ObjectSerializer.php" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/.php_cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/COOKBOOK-FIXERS.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/LICENSE" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/README.rst" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/README.rst" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/AbstractAlignFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/AbstractAnnotationRemovalFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/AbstractFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/AbstractLinesBeforeNamespaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/AbstractPhpdocTypesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Config/Config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Config/MagentoConfig.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Config/Symfony23Config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ConfigAwareInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ConfigInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidConfigurationException.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidFixerConfigurationException.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ConfigurationResolver.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Console/Application.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Console/Command/FixCommand.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Console/Command/ReadmeCommand.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Console/Command/SelfUpdateCommand.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Console/WarningsDetector.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/DocBlock/Annotation.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/DocBlock/DocBlock.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/DocBlock/Line.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/DocBlock/Tag.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/DocBlock/TagComparator.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ErrorsManager.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/FileCacheManager.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/FileRemoval.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Finder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Finder/DefaultFinder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Finder/MagentoFinder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Finder/Symfony23Finder.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/FinderInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignDoubleArrowFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignEqualsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/ClassKeywordRemoveFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/CombineConsecutiveUnsetsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/ConcatWithSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/EchoToPrintFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/EmptyReturnFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/EregToPregFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/HeaderCommentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSuccessorSpaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/LongArraySyntaxFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/MbStrFunctionsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/MultilineSpacesBeforeSemicolonFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/NewlineAfterOpenTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoBlankLinesBeforeNamespaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessElseFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessReturnFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/OrderedUseFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/Php4ConstructorFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitConstructFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitDedicateAssertFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitStrictFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocOrderFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocVarToTypeFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/ProtectedToPrivateFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortArraySyntaxFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortEchoTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/SilencedDeprecationErrorFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictParamFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR0/Psr0Fixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR1/EncodingFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR1/ShortTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/BracesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/ClassDefinitionFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/ElseifFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/EofEndingFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionCallSpaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionDeclarationFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/IndentationFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/LineAfterNamespaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/LinefeedFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseConstantsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseKeywordsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/MethodArgumentSpaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/MultipleUseFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/NoTrailingWhitespaceInCommentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/ParenthesisFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/PhpClosingTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/SingleLineAfterImportsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSemicolonToColonFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSpaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/TrailingSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/PSR2/VisibilityFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementNoSpaceBeforeCommaFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementWhiteSpaceAfterCommaFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/BlanklineAfterOpenTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ConcatWithoutSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/DeclareEqualNormalizeFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/DoubleArrowMultilineWhitespacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/DuplicateSemicolonFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ExtraEmptyLinesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/FunctionTypehintSpaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/HashToSlashCommentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/HeredocToNowdocFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/IncludeFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/JoinFunctionFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ListCommasFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/LowercaseCastFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/MethodArgumentDefaultValueFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/MultilineArrayTrailingCommaFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NamespaceNoLeadingWhitespaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NativeFunctionCasingFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NewWithBracesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoBlankLinesAfterClassOpeningFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyCommentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyLinesAfterPhpdocsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyPhpdocFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyStatementFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ObjectOperatorFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/OperatorsSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpUnitFqcnAnnotationFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocAnnotationWithoutDotFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocIndentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocInlineTagFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoAccessFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoEmptyReturnFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoPackageFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocParamsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocScalarFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSeparationFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocShortDescriptionFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSingleLineVarSpacingFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocToCommentFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTrimFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypeToVarFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocVarWithoutNameFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PreIncrementFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/PrintToEchoFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLeadingSlashUseFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLinesBetweenUsesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ReturnFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SelfAccessorFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortBoolCastFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortScalarCastFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleArrayNoTrailingCommaFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleBlankLineBeforeNamespaceFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleQuoteFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesAfterSemicolonFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesBeforeSemicolonFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesCastFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/StandardizeNotEqualFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/TernarySpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/TrimArraySpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignDoubleArrowFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignEqualsFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnaryOperatorsSpacesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnneededControlParenthesesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnusedUseFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Fixer/Symfony/WhitespacyLinesFixer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/FixerFileProcessedEvent.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/FixerInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/LintManager.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Resources/phar-stub.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/StdinFileInfo.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Test/IntegrationCase.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Test/IntegrationCaseFactory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/AbstractTransformer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Token.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Tokens.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ArrayTypehint.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ClassConstant.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/CurlyClose.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DollarCloseCurlyBraces.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicPropBrace.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicVarBrace.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/TransformerInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Tokenizer/Transformers.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/ToolInfo.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/UniqueFileIterator.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/Symfony/CS/Utils.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/benchmark.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/box.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/composer.json" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/composer.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/php-cs-fixer" afterPath="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer/php-cs-fixer" />
+      <change beforePath="$PROJECT_DIR$/setting/config.json" afterPath="$PROJECT_DIR$/setting/config.json" />
+      <change beforePath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" afterPath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" afterPath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/OcrApiTest.php" afterPath="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" afterPath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -221,40 +26,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>C:\composer\composer.bat</executablePath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OAuth2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OAuth2.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OcrApiTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
-                <element signature="e#49#98#0#PHP" expanded="true" />
+                <element signature="e#710#737#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestException.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -265,7 +50,24 @@
     <findStrings>
       <find>GuzzleHttp</find>
       <find>Auth</find>
+      <find>HeaderSelector</find>
+      <find>getDefaultConfiguration</find>
+      <find>Configuration::getDefaultConfiguration()-&gt;getTempFolderPath()</find>
+      <find>tempFolderPath</find>
+      <find>defaultConfiguration</find>
+      <find>DocumentApi</find>
+      <find>Configuration</find>
+      <find>Invoker\Client</find>
+      <find>ClientInterface</find>
+      <find>getUserAgent</find>
+      <find>FileExistResponse</find>
+      <find>OcrGetRecognizeAndTranslateToHtml</find>
+      <find>$this-&gt;config-&gt;getUserAgent()</find>
+      <find>base</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$this-&gt;config['defaultUserAgent']</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -277,9 +79,23 @@
         <option value="$PROJECT_DIR$/test/Api/test.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/lib/test.php" />
-        <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
-        <option value="$PROJECT_DIR$/lib/Configuration.php" />
         <option value="$PROJECT_DIR$/OAuth2.php" />
+        <option value="$PROJECT_DIR$/lib/Configuration.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/Client/BaseApi.php" />
+        <option value="$PROJECT_DIR$/lib/Client/Config.php" />
+        <option value="$PROJECT_DIR$/lib/ObjectSerializer.php" />
+        <option value="$PROJECT_DIR$/lib/Client/ConversionApi.php" />
+        <option value="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
+        <option value="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
+        <option value="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
+        <option value="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
+        <option value="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
+        <option value="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+        <option value="$PROJECT_DIR$/lib/Config.php" />
+        <option value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" />
+        <option value="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+        <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       </list>
     </option>
   </component>
@@ -374,18 +190,58 @@
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -420,29 +276,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.OAuth2.php">
-    <configuration name="Configuration.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SwaggerClient-php/Configuration.php" />
+  <component name="RunManager" selected="PHPUnit.OcrApiTest (1)">
     <configuration name="AllTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/test" />
     </configuration>
-    <configuration name="OcrApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" scope="Class" />
+    <configuration name="OcrApiTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" scope="Class" />
     </configuration>
-    <configuration name="OAuth2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/OAuth2.php" />
-    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lib/test.php" />
-    <list size="5">
+    <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Method" />
+    </configuration>
+    <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndTranslateToHtml" scope="Method" />
+    </configuration>
+    <configuration name="Config.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lib/Config.php" />
+    <configuration name="OcrApi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.AllTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.test.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Configuration.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.OAuth2.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.Config.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.OcrApi.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.OAuth2.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Configuration.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.test.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.OcrApi.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.Config.php" />
       </list>
     </recent_temporary>
   </component>
@@ -459,68 +322,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521458521955</updated>
-      <workItem from="1521458529580" duration="22376000" />
+      <workItem from="1521458529580" duration="22628000" />
+      <workItem from="1521501132675" duration="900000" />
+      <workItem from="1521529729501" duration="41764000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OcrApiTest - 2018.03.19 at 16h 08m 46s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_(1) - 2018.03.20 at 23h 21m 48s.xml">
+      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 16h 12m 45s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_(1) - 2018.03.20 at 23h 28m 45s.xml">
+      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 04m 05s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 22h 49m 57s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 04m 28s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 23h 25m 04s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 05m 44s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 23h 26m 34s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 09m 47s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 22h 55m 35s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 11m 15s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 22h 59m 10s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 14m 25s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 02m 06s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 16m 30s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 03m 22s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.19 at 22h 24m 01s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 09m 16s.xml">
+      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22376000" />
+    <option name="totallyTimeSpent" value="65292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45740497" sideWeight="0.255625" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52555704" sideWeight="0.15375" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45740497" sideWeight="0.744375" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52555704" sideWeight="0.84625" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6644823" sideWeight="0.4925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.189375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26605505" sideWeight="0.4975" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30799475" sideWeight="0.52875" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973786" sideWeight="0.49" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -537,20 +402,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Api/DocumentApiTest.php">
+    <entry file="file://$PROJECT_DIR$/OAuth2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#711#745#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ObjectSerializer.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="317" column="0" lean-forward="false" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="159" column="7" lean-forward="false" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5746">
+          <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -560,46 +482,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1521465994072" expanded="true" signature="2250:3653" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="3279:3511" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="3535:3651" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="5324:6757" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="6367:6610" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="6437:6585" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="6634:6755" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="8359:9503" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="9176:9363" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="9387:9501" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="10882:12056" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="11713:11911" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="11935:12054" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="13436:14580" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="14253:14440" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="14464:14578" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="15959:17133" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="16790:16988" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="17012:17131" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="18549:19876" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="19507:19734" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="19758:19874" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="21362:22575" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="22253:22435" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="22459:22573" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="24351:25564" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="25242:25424" ph="..." />
-              <marker date="1521465994072" expanded="true" signature="25448:25562" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/Model/ModelInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,112 +495,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/TranslationApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/DocumentApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ApiException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2433">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#714#748#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HeaderSelector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#706#740#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/ConversionApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/OcrApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="e#685#707#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/test.php" />
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kamermans/guzzle-oauth2-subscriber/src/GrantType/ClientCredentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1626">
+          <caret line="154" column="5" lean-forward="false" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -731,18 +530,231 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="317">
+            <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Client/Model/ModelInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="825" column="31" lean-forward="true" selection-start-line="825" selection-start-column="31" selection-end-line="825" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="2155" column="25" lean-forward="true" selection-start-line="2155" selection-start-column="25" selection-end-line="2155" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ApiException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/HeaderSelector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/DocumentApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/DocumentApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/ConversionApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ObjectSerializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/test_ocr.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/test_ocr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/APIClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="91" column="29" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="94" column="113" lean-forward="false" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/Models/FileExistResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/StorageApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="215" column="26" lean-forward="false" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="e#49#98#0#PHP" expanded="true" />
+            <element signature="e#710#737#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

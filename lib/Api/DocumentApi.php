@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Client\Invoker\Client;
+namespace Client\Invoker\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -35,7 +35,7 @@ use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
 use Client\Invoker\ApiException;
-use Client\Invoker\Configuration;
+use Client\Invoker\Config;
 use Client\Invoker\HeaderSelector;
 use Client\Invoker\ObjectSerializer;
 
@@ -55,27 +55,22 @@ class DocumentApi
     protected $client;
 
     /**
-     * @var Configuration
+     * @var Config
      */
     protected $config;
 
     /**
-     * @param ClientInterface $client
-     * @param Configuration   $config
      * @param HeaderSelector  $selector
      */
-    public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
-    ) {
-        $this->client = $client ?: new Client();
-        $this->config = $config ?: new Configuration();
+    public function __construct( HeaderSelector $selector = null )
+    {
+        $this->client = Config::getClient();
+        $this->config = Config::getConfig();
         $this->headerSelector = $selector ?: new HeaderSelector();
     }
 
     /**
-     * @return Configuration
+     * @return Config
      */
     public function getConfig()
     {
