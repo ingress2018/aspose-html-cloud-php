@@ -1,16 +1,4 @@
 <?php
-/**
- * ConversionApi
- * PHP version 5
- *
- * @category Class
- * @package  Client\Invoker\Api
- */
-
-/**
- * Aspose.HTML for Cloud API Reference
- *
- */
 
 namespace Client\Invoker\Api;
 
@@ -25,43 +13,9 @@ use Client\Invoker\Config;
 use Client\Invoker\HeaderSelector;
 use Client\Invoker\ObjectSerializer;
 
-/**
- * ConversionApi Class Doc Comment
- *
- * @category Class
- * @package  Client\Invoker\Api
- */
-class ConversionApi
+
+trait ConversionApi
 {
-    /**
-     * @var ClientInterface
-     */
-    protected $client;
-
-    /**
-     * @var Config
-     */
-    protected $config;
-
-    /**
-     * @param HeaderSelector  $selector
-     */
-    public function __construct( HeaderSelector $selector = null )
-    {
-        $this->client = Config::getClient();
-        $this->config = Config::getConfig();
-        $this->headerSelector = $selector ?: new HeaderSelector();
-    }
-
-
-    /**
-     * @return Config
-     */
-    public function getConfig()
-    {
-        return $this->config;
-    }
-
     /**
      * Operation conversionGetConvertDocumentToImage
      *
@@ -414,8 +368,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -427,7 +381,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -781,8 +735,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -794,7 +748,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -1115,8 +1069,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -1128,7 +1082,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -1445,8 +1399,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -1458,7 +1412,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -1779,8 +1733,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -1792,7 +1746,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -2109,8 +2063,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -2122,7 +2076,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'GET',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -2467,8 +2421,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -2480,7 +2434,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'PUT',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -2788,8 +2742,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -2801,7 +2755,7 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'PUT',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
@@ -3109,8 +3063,8 @@ class ConversionApi
 
 
         $defaultHeaders = [];
-        if ($this->config->getUserAgent()) {
-            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        if ($this->config['defaultUserAgent']) {
+            $defaultHeaders['User-Agent'] = $this->config['defaultUserAgent'];
         }
 
         $headers = array_merge(
@@ -3122,28 +3076,9 @@ class ConversionApi
         $query = \GuzzleHttp\Psr7\build_query($queryParams);
         return new Request(
             'PUT',
-            $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
+            $this->config['basePath'] . $resourcePath . ($query ? "?{$query}" : ''),
             $headers,
             $httpBody
         );
-    }
-
-    /**
-     * Create http client option
-     *
-     * @throws \RuntimeException on file opening failure
-     * @return array of http client options
-     */
-    protected function createHttpClientOption()
-    {
-        $options = [];
-        if ($this->config->getDebug()) {
-            $options[RequestOptions::DEBUG] = fopen($this->config->getDebugFile(), 'a');
-            if (!$options[RequestOptions::DEBUG]) {
-                throw new \RuntimeException('Failed to open the debug file: ' . $this->config->getDebugFile());
-            }
-        }
-
-        return $options;
     }
 }

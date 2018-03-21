@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dd7541-46d5-461b-8edd-3f6871d9bbdc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Api/HtmlApi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/Api/BaseTest.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/OAuth2.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/OcrApi.php" afterPath="$PROJECT_DIR$/lib/Api/OcrApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Client/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Configuration.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/ObjectSerializer.php" afterPath="$PROJECT_DIR$/lib/ObjectSerializer.php" />
-      <change beforePath="$PROJECT_DIR$/setting/config.json" afterPath="$PROJECT_DIR$/setting/config.json" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/OcrApi.php" afterPath="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" afterPath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" afterPath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/OcrApiTest.php" afterPath="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" afterPath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/testresult/test_ocr.jpg_en_de.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,14 +28,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OcrApiTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OcrApiTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-              <folding>
-                <element signature="e#710#737#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="127">
+              <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranslationApiTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OcrApi.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranslationApi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,10 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GuzzleHttp</find>
-      <find>Auth</find>
-      <find>HeaderSelector</find>
-      <find>getDefaultConfiguration</find>
       <find>Configuration::getDefaultConfiguration()-&gt;getTempFolderPath()</find>
       <find>tempFolderPath</find>
       <find>defaultConfiguration</find>
@@ -61,12 +91,33 @@
       <find>ClientInterface</find>
       <find>getUserAgent</find>
       <find>FileExistResponse</find>
-      <find>OcrGetRecognizeAndTranslateToHtml</find>
+      <find>getUserAgent()</find>
       <find>$this-&gt;config-&gt;getUserAgent()</find>
+      <find>$this-&gt;config-&gt;getDebug()</find>
+      <find>createHttpClientOption()</find>
+      <find>deb</find>
+      <find>$this-&gt;config-&gt;getDebugFile()</find>
+      <find>xPath</find>
+      <find>ConversionGetConvertDocumentToImage</find>
       <find>base</find>
+      <find>ConversionGetConvertDocumentToImageByUrl</find>
+      <find>$this-&gt;config-&gt;getHost()</find>
+      <find>ConversionGetConvertDocumentToPdf</find>
+      <find>ConversionGetConvertDocumentToPdfByUrl</find>
+      <find>ConversionGetConvertDocumentToXps</find>
+      <find>ConversionGetConvertDocumentToXpsByUrl</find>
+      <find>TranslationGetTranslateDocument</find>
+      <find>TranslationGetTranslateDocumentByUrl</find>
+      <find>OcrGetRecognizeAndImportToHtml</find>
+      <find>ocrGetRecognizeAndImportToHtml</find>
+      <find>ocrGetRecognizeAndTranslateToHtml</find>
+      <find>OcrGetRecognizeAndTranslateToHtml</find>
     </findStrings>
     <replaceStrings>
       <replace>$this-&gt;config['defaultUserAgent']</replace>
+      <replace>$this-&gt;config['debug']</replace>
+      <replace>$this-&gt;config['debugFile']</replace>
+      <replace>$this-&gt;config['basePath']</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -86,15 +137,17 @@
         <option value="$PROJECT_DIR$/lib/Client/Config.php" />
         <option value="$PROJECT_DIR$/lib/ObjectSerializer.php" />
         <option value="$PROJECT_DIR$/lib/Client/ConversionApi.php" />
-        <option value="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
-        <option value="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
-        <option value="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
-        <option value="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
-        <option value="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
-        <option value="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
         <option value="$PROJECT_DIR$/lib/Config.php" />
         <option value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" />
+        <option value="$PROJECT_DIR$/test/Api/BaseTest.php" />
+        <option value="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
         <option value="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+        <option value="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
+        <option value="$PROJECT_DIR$/lib/Api/HtmlApi.php" />
+        <option value="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
+        <option value="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+        <option value="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
+        <option value="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
         <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       </list>
     </option>
@@ -190,58 +243,24 @@
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage-sdk-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Aspose" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -276,36 +295,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.OcrApiTest (1)">
+  <component name="RunManager" selected="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml">
     <configuration name="AllTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/test" />
     </configuration>
     <configuration name="OcrApiTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" scope="Class" />
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndTranslateToHtml" scope="Class" options="--filter &quot;testOcrGetRecognizeAndTranslateToHtml with data set (#1)$&quot;" />
+    </configuration>
+    <configuration name="OcrApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Class" />
     </configuration>
     <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Method" />
+      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Method" />
     </configuration>
     <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndTranslateToHtml" scope="Method" />
     </configuration>
-    <configuration name="Config.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lib/Config.php" />
-    <configuration name="OcrApi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+    <configuration name="TranslationApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\TranslationApiTest" file="$PROJECT_DIR$/test/Api/TranslationApiTest.php" scope="Class" />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.AllTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.Config.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.OcrApi.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
       <item index="5" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.OcrApi.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.Config.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,68 +347,68 @@
       <updated>1521458521955</updated>
       <workItem from="1521458529580" duration="22628000" />
       <workItem from="1521501132675" duration="900000" />
-      <workItem from="1521529729501" duration="41764000" />
+      <workItem from="1521529729501" duration="41994000" />
+      <workItem from="1521615220111" duration="42088000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OcrApiTest_(1) - 2018.03.20 at 23h 21m 48s.xml">
+    <history-entry file="AllTest - 2018.03.22 at 01h 27m 46s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AllTest - 2018.03.22 at 01h 29m 01s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AllTest - 2018.03.22 at 01h 31m 03s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AllTest - 2018.03.22 at 01h 32m 45s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="OcrApiTest - 2018.03.22 at 01h 36m 48s.xml">
+      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 37m 39s.xml">
       <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_(1) - 2018.03.20 at 23h 28m 45s.xml">
+    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 38m 32s.xml">
       <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 22h 49m 57s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 40m 19s.xml">
+      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 23h 25m 04s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndImportToHtml - 2018.03.20 at 23h 26m 34s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 22h 55m 35s.xml">
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.22 at 01h 39m 20s.xml">
       <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 22h 59m 10s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 02m 06s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 03m 22s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.20 at 23h 09m 16s.xml">
+    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.22 at 01h 41m 46s.xml">
       <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65292000" />
+    <option name="totallyTimeSpent" value="107610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52555704" sideWeight="0.15375" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52555704" sideWeight="0.84625" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6644823" sideWeight="0.4925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.189375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30799475" sideWeight="0.52875" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52555704" sideWeight="0.1575" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41756758" sideWeight="0.8425" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6644823" sideWeight="0.4925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973786" sideWeight="0.49" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39864865" sideWeight="0.49" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30799475" sideWeight="0.52875" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -397,24 +420,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OAuth2.php">
+    <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OAuth2.php" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,25 +448,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="7" lean-forward="false" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Configuration.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5746">
           <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -449,18 +465,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OAuth2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OAuth2.php" />
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -473,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,37 +549,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="338" column="9" lean-forward="false" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OAuth2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OAuth2.php" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="317">
             <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Client/Model/ModelInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" />
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -583,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,74 +598,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="2155" column="25" lean-forward="true" selection-start-line="2155" selection-start-column="25" selection-end-line="2155" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ApiException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HeaderSelector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/DocumentApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/DocumentApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/ConversionApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ObjectSerializer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Configuration.php" />
     <entry file="file://$PROJECT_DIR$/testdata/test_ocr.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -693,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -709,19 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="94" column="113" lean-forward="false" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/Models/FileExistResponse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,29 +643,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ApiException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="79">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+    <entry file="file://$PROJECT_DIR$/lib/HeaderSelector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="312">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ObjectSerializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="119" column="6" lean-forward="true" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/DocumentApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/HtmlApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding>
+            <element signature="e#179#210#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/ConversionApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1773" column="221" lean-forward="false" selection-start-line="1773" selection-start-column="58" selection-end-line="1773" selection-end-column="221" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/DocumentApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#710#737#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
