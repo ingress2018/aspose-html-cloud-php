@@ -246,7 +246,12 @@ class ConversionApiTest extends BaseTest
     		[500,  800,  null, null, null, null],
     		[600,  900,  null, null, null, null],
     		[700,  1000, null, null, null, null],
-    		[800,  1100, null, null, null, null],
+    		[300,  300, null, null, null, null],
+            [400,  400, null, null, null, null],
+            [500,  500, 10, 10, 10, 10],
+            [600,  600, 50, 50, 50, 50],
+            [700,  700, 100, 100, 100, 100],
+            [800,  800, 50, 100, 150, 200],
 
       		[null, null, 0, 0, 0, 0],
 

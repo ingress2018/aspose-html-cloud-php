@@ -116,8 +116,8 @@ class TranslationApiTest extends BaseTest
     public function providerTranslateUrl()
     {
         return [
-    		["https://www.le.ac.uk/oerresources/bdra/html/page_01.htm","en","fr"],
-    		["https://www.le.ac.uk/oerresources/bdra/html/page_02.htm","en","de"]
+            ["https://www.le.ac.uk/oerresources/bdra/html/page_02.htm","en","de"],
+    		["https://www.le.ac.uk/oerresources/bdra/html/page_01.htm","en","fr"]
         ];
     }
 }

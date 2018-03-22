@@ -2,18 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dd7541-46d5-461b-8edd-3f6871d9bbdc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Api/HtmlApi.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Api/BaseTest.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/Api/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Api/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Api/OcrApi.php" afterPath="$PROJECT_DIR$/lib/Api/OcrApi.php" />
-      <change beforePath="$PROJECT_DIR$/lib/Api/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" afterPath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
-      <change beforePath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" afterPath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
-      <change beforePath="$PROJECT_DIR$/test/Api/OcrApiTest.php" afterPath="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" afterPath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
-      <change beforePath="$PROJECT_DIR$/testresult/test_ocr.jpg_en_de.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B120.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B120.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B160.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B160.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B40.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B40.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B80.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B80.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T120_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T120_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T160_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T160_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T40_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T40_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T80_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T80_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R120_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R120_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R160_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R160_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R40_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R40_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R80_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R80_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L120_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L120_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L160_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L160_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L40_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L40_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L80_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L80_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_200x500_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_200x500_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_300x600_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_300x600_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_400x700_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_400x700_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_500x800_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_500x800_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_600x900_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_600x900_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_700x1000_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_700x1000_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_800x1100_L_R_T_B_.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B120.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B120.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B160.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B160.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B40.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B40.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B80.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B80.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T120_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T120_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T160_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T160_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T40_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T40_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T80_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T80_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R120_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R120_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R160_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R160_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R40_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R40_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R80_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R80_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L120_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L120_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L160_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L160_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L40_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L40_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L80_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L80_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_200x500_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_200x500_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_300x600_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_300x600_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_400x700_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_400x700_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_500x800_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_500x800_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_600x900_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_600x900_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_700x1000_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_700x1000_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_800x1100_L_R_T_B_.xps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/TranslateUrl_en_fr.zip" afterPath="$PROJECT_DIR$/testresult/TranslateUrl_en_fr.zip" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B120.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B120.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B160.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B160.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B40.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B40.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B80.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B80.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T120_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T120_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T160_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T160_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T40_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T40_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T80_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T80_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R120_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R120_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R160_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R160_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R40_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R40_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R80_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R80_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L120_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L120_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L160_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L160_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L40_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L40_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L80_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L80_R0_T0_B0.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_200x500_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_200x500_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_300x600_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_300x600_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_400x700_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_400x700_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_500x800_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_500x800_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_600x900_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_600x900_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_700x1000_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_700x1000_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_800x1100_L_R_T_B_.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B120.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B120.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B160.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B160.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B40.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B40.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B80.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B80.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T120_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T120_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T160_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T160_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T40_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T40_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T80_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T80_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R120_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R120_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R160_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R160_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R40_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R40_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R80_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R80_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L120_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L120_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L160_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L160_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L40_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L40_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L80_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L80_R0_T0_B0.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_200x500_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_200x500_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_300x600_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_300x600_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_400x700_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_400x700_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_500x800_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_500x800_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_600x900_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_600x900_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_700x1000_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_700x1000_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_800x1100_L_R_T_B_.xps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/test1.html.zip" afterPath="$PROJECT_DIR$/testresult/test1.html.zip" />
+      <change beforePath="$PROJECT_DIR$/testresult/test3.html.zip" afterPath="$PROJECT_DIR$/testresult/test3.html.zip" />
+      <change beforePath="$PROJECT_DIR$/testresult/test4.html.zip" afterPath="$PROJECT_DIR$/testresult/test4.html.zip" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +126,7 @@
       <file leaf-file-name="OcrApiTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="0">
               <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
               <folding />
             </state>
@@ -41,7 +136,7 @@
       <file leaf-file-name="BaseTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="799">
               <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -52,27 +147,17 @@
         <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OcrApi.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+      <file leaf-file-name="ConversionApiTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslationApi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
+            <state relative-caret-position="1929">
+              <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,9 +231,9 @@
         <option value="$PROJECT_DIR$/lib/Api/HtmlApi.php" />
         <option value="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
         <option value="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+        <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
         <option value="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
         <option value="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
-        <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       </list>
     </option>
   </component>
@@ -232,7 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,6 +350,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -295,40 +380,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml">
+  <component name="RunManager" selected="PHPUnit.AllTest">
     <configuration name="AllTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/test" />
     </configuration>
-    <configuration name="OcrApiTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndTranslateToHtml" scope="Class" options="--filter &quot;testOcrGetRecognizeAndTranslateToHtml with data set (#1)$&quot;" />
+    <configuration name="ConversionApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\ConversionApiTest" file="$PROJECT_DIR$/test/Api/ConversionApiTest.php" scope="Class" />
     </configuration>
-    <configuration name="OcrApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Class" />
-    </configuration>
-    <configuration name="OcrApiTest.testOcrGetRecognizeAndImportToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" directory="$PROJECT_DIR$/test" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndImportToHtml" scope="Method" />
-    </configuration>
-    <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Client\Invoker\Api\OcrApiTest" file="$PROJECT_DIR$/test/Api/OcrApiTest.php" method="testOcrGetRecognizeAndTranslateToHtml" scope="Method" />
+    <configuration name="TranslationApiTest (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\TranslationApiTest" file="$PROJECT_DIR$/test/Api/TranslationApiTest.php" method="testTranslationGetTranslateDocumentByUrl" scope="Class" options="--filter &quot;testTranslationGetTranslateDocumentByUrl with data set (#0)$&quot;" />
     </configuration>
     <configuration name="TranslationApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Client\Invoker\Api\TranslationApiTest" file="$PROJECT_DIR$/test/Api/TranslationApiTest.php" scope="Class" />
     </configuration>
+    <configuration name="TranslationApiTest.testTranslationGetTranslateDocument" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\TranslationApiTest" file="$PROJECT_DIR$/test/Api/TranslationApiTest.php" method="testTranslationGetTranslateDocument" scope="Method" />
+    </configuration>
+    <configuration name="TranslationApiTest.testTranslationGetTranslateDocumentByUrl" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Client\Invoker\Api\TranslationApiTest" file="$PROJECT_DIR$/test/Api/TranslationApiTest.php" method="testTranslationGetTranslateDocumentByUrl" scope="Method" options="--filter &quot;testTranslationGetTranslateDocumentByUrl with data set (#1)$&quot;" />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.AllTest" />
       <item index="1" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
-      <item index="5" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest.testTranslationGetTranslateDocumentByUrl" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest (2)" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest.testTranslationGetTranslateDocument" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ConversionApiTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.OcrApiTest.testOcrGetRecognizeAndImportToHtml" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.ConversionApiTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest.testTranslationGetTranslateDocument" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest (2)" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.TranslationApiTest.testTranslationGetTranslateDocumentByUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -349,43 +434,44 @@
       <workItem from="1521501132675" duration="900000" />
       <workItem from="1521529729501" duration="41994000" />
       <workItem from="1521615220111" duration="42088000" />
+      <workItem from="1521709805596" duration="5426000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest - 2018.03.22 at 01h 27m 46s.xml">
+    <history-entry file="AllTest - 2018.03.22 at 13h 16m 44s.xml">
       <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="AllTest - 2018.03.22 at 01h 29m 01s.xml">
-      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ConversionApiTest - 2018.03.22 at 12h 46m 43s.xml">
+      <configuration name="ConversionApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="AllTest - 2018.03.22 at 01h 31m 03s.xml">
-      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 02m 36s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="AllTest - 2018.03.22 at 01h 32m 45s.xml">
-      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 03m 28s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest - 2018.03.22 at 01h 36m 48s.xml">
-      <configuration name="OcrApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 03m 54s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 37m 39s.xml">
-      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 04m 14s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 38m 32s.xml">
-      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 04m 45s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_(1) - 2018.03.22 at 01h 40m 19s.xml">
-      <configuration name="OcrApiTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 05m 29s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.22 at 01h 39m 20s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 06m 29s.xml">
+      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="OcrApiTest_testOcrGetRecognizeAndTranslateToHtml - 2018.03.22 at 01h 41m 46s.xml">
-      <configuration name="OcrApiTest.testOcrGetRecognizeAndTranslateToHtml" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TranslationApiTest_testTranslationGetTranslateDocument - 2018.03.22 at 12h 14m 29s.xml">
+      <configuration name="TranslationApiTest.testTranslationGetTranslateDocument" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107610000" />
+    <option name="totallyTimeSpent" value="113036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -395,9 +481,8 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52555704" sideWeight="0.1575" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41756758" sideWeight="0.8425" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6243243" sideWeight="0.8425" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6644823" sideWeight="0.4925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -409,6 +494,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30799475" sideWeight="0.52875" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -425,13 +511,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5916">
+          <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5542">
+          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -465,9 +573,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1626">
           <caret line="154" column="5" lean-forward="false" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="91" column="29" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="215" column="26" lean-forward="false" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,16 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="5763">
           <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -729,23 +819,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="799">
           <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="0">
           <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
           <folding />
         </state>
@@ -753,8 +835,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+        <state relative-caret-position="366">
+          <caret line="328" column="19" lean-forward="false" selection-start-line="328" selection-start-column="19" selection-end-line="328" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1929">
+          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
           <folding />
         </state>
       </provider>
