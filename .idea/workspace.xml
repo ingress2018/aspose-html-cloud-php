@@ -3,8 +3,63 @@
   <component name="ChangeListManager">
     <list default="true" id="b7dd7541-46d5-461b-8edd-3f6871d9bbdc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/ConversionApi.md" afterPath="$PROJECT_DIR$/docs/Api/ConversionApi.md" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/DocumentApi.md" afterPath="$PROJECT_DIR$/docs/Api/DocumentApi.md" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/OcrApi.md" afterPath="$PROJECT_DIR$/docs/Api/OcrApi.md" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/TranslationApi.md" afterPath="$PROJECT_DIR$/docs/Api/TranslationApi.md" />
+      <change beforePath="$PROJECT_DIR$/git_push.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/ConversionApi.php" afterPath="$PROJECT_DIR$/lib/Api/ConversionApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/DocumentApi.php" afterPath="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/HtmlApi.php" afterPath="$PROJECT_DIR$/lib/Api/HtmlApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/OcrApi.php" afterPath="$PROJECT_DIR$/lib/Api/OcrApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/TranslationApi.php" afterPath="$PROJECT_DIR$/lib/Api/TranslationApi.php" />
+      <change beforePath="$PROJECT_DIR$/lib/ApiException.php" afterPath="$PROJECT_DIR$/lib/ApiException.php" />
+      <change beforePath="$PROJECT_DIR$/lib/Config.php" afterPath="$PROJECT_DIR$/lib/Config.php" />
+      <change beforePath="$PROJECT_DIR$/lib/HeaderSelector.php" afterPath="$PROJECT_DIR$/lib/HeaderSelector.php" />
+      <change beforePath="$PROJECT_DIR$/lib/ObjectSerializer.php" afterPath="$PROJECT_DIR$/lib/ObjectSerializer.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/BaseTest.php" afterPath="$PROJECT_DIR$/test/Api/BaseTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" afterPath="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" afterPath="$PROJECT_DIR$/test/Api/DocumentApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/test/Api/OcrApiTest.php" afterPath="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
       <change beforePath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" afterPath="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_--x--_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_500x500_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_600x600_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L200_R150_T100_B50.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L200_R150_T100_B50.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L200_R150_T10_B50.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L200_R150_T10_B50.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L50_R100_T150_B200.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L50_R100_T150_B200.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L50_R100_T150_B200.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_700x700_100x100_L50_R100_T150_B200.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1000_200x200_L50_R50_T50_B50.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1200_50x50_L100_R100_T100_B100.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L150_R150_T150_B150.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L300_R200_T100_B0.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1400_50x50_L300_R200_T100_B0.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L150_R150_T150_B150.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L150_R150_T150_B150.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x1600_50x50_L200_R200_T200_B200.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L200_R150_T100_B50.jpeg" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L200_R150_T100_B50.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L200_R150_T100_B50.png" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L200_R150_T100_B50.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L50_R100_T150_B200.bmp" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L50_R100_T150_B200.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L50_R100_T150_B200.tiff" afterPath="$PROJECT_DIR$/testresult/HtmlToImg_800x800_150x150_L50_R100_T150_B200.tiff" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B0.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B120.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B120.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B160.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L0_R0_T0_B160.pdf" />
@@ -24,12 +79,17 @@
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L80_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L80_R0_T0_B0.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_--x--_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_200x500_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_200x500_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_300x300_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_300x300_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_300x600_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_300x600_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_400x400_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_400x400_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_400x700_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_400x700_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_500x500_L10_R10_T10_B10.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_500x500_L10_R10_T10_B10.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_500x800_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_500x800_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_600x600_L50_R50_T50_B50.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_600x600_L50_R50_T50_B50.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_600x900_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_600x900_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_700x1000_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_700x1000_L_R_T_B_.pdf" />
-      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_800x1100_L_R_T_B_.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_700x700_L100_R100_T100_B100.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_700x700_L100_R100_T100_B100.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToPdf_800x800_L50_R100_T150_B200.pdf" afterPath="$PROJECT_DIR$/testresult/HtmlToPdf_800x800_L50_R100_T150_B200.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B0.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B120.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B120.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B160.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L0_R0_T0_B160.xps" />
@@ -49,13 +109,54 @@
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L80_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L80_R0_T0_B0.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_--x--_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_200x500_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_200x500_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_300x300_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_300x300_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_300x600_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_300x600_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_400x400_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_400x400_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_400x700_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_400x700_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_500x500_L10_R10_T10_B10.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_500x500_L10_R10_T10_B10.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_500x800_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_500x800_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_600x600_L50_R50_T50_B50.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_600x600_L50_R50_T50_B50.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_600x900_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_600x900_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_700x1000_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_700x1000_L_R_T_B_.xps" />
-      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_800x1100_L_R_T_B_.xps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_700x700_L100_R100_T100_B100.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_700x700_L100_R100_T100_B100.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/HtmlToXps_800x800_L50_R100_T150_B200.xps" afterPath="$PROJECT_DIR$/testresult/HtmlToXps_800x800_L50_R100_T150_B200.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/TranslateUrl_en_fr.zip" afterPath="$PROJECT_DIR$/testresult/TranslateUrl_en_fr.zip" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_--x--_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_500x500_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_600x600_-x-_L_R_T_B_.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L200_R150_T100_B50.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L200_R150_T100_B50.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L200_R150_T10_B50.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L200_R150_T10_B50.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L50_R100_T150_B200.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L50_R100_T150_B200.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L50_R100_T150_B200.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_700x700_100x100_L50_R100_T150_B200.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1000_200x200_L50_R50_T50_B50.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1200_50x50_L100_R100_T100_B100.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L150_R150_T150_B150.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L300_R200_T100_B0.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1400_50x50_L300_R200_T100_B0.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L150_R150_T150_B150.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L150_R150_T150_B150.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x1600_50x50_L200_R200_T200_B200.tiff" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L200_R150_T100_B50.jpeg" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L200_R150_T100_B50.jpeg" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L200_R150_T100_B50.png" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L200_R150_T100_B50.png" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L50_R100_T150_B200.bmp" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L50_R100_T150_B200.bmp" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L50_R100_T150_B200.tiff" afterPath="$PROJECT_DIR$/testresult/UrlToImg_800x800_150x150_L50_R100_T150_B200.tiff" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B0.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B120.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B120.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B160.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L0_R0_T0_B160.pdf" />
@@ -75,12 +176,17 @@
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L80_R0_T0_B0.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L80_R0_T0_B0.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_--x--_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_200x500_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_200x500_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_300x300_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_300x300_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_300x600_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_300x600_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_400x400_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_400x400_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_400x700_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_400x700_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_500x500_L10_R10_T10_B10.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_500x500_L10_R10_T10_B10.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_500x800_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_500x800_L_R_T_B_.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_600x600_L50_R50_T50_B50.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_600x600_L50_R50_T50_B50.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_600x900_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_600x900_L_R_T_B_.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_700x1000_L_R_T_B_.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_700x1000_L_R_T_B_.pdf" />
-      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_800x1100_L_R_T_B_.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_700x700_L100_R100_T100_B100.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_700x700_L100_R100_T100_B100.pdf" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToPdf_800x800_L50_R100_T150_B200.pdf" afterPath="$PROJECT_DIR$/testresult/UrlToPdf_800x800_L50_R100_T150_B200.pdf" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B0.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B120.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B120.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B160.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L0_R0_T0_B160.xps" />
@@ -100,15 +206,32 @@
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L80_R0_T0_B0.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L80_R0_T0_B0.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_--x--_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_200x500_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_200x500_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_300x300_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_300x300_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_300x600_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_300x600_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_400x400_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_400x400_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_400x700_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_400x700_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_500x500_L10_R10_T10_B10.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_500x500_L10_R10_T10_B10.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_500x800_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_500x800_L_R_T_B_.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_600x600_L50_R50_T50_B50.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_600x600_L50_R50_T50_B50.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_600x900_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_600x900_L_R_T_B_.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_700x1000_L_R_T_B_.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_700x1000_L_R_T_B_.xps" />
-      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_800x1100_L_R_T_B_.xps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_700x700_L100_R100_T100_B100.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_700x700_L100_R100_T100_B100.xps" />
+      <change beforePath="$PROJECT_DIR$/testresult/UrlToXps_800x800_L50_R100_T150_B200.xps" afterPath="$PROJECT_DIR$/testresult/UrlToXps_800x800_L50_R100_T150_B200.xps" />
       <change beforePath="$PROJECT_DIR$/testresult/test1.html.zip" afterPath="$PROJECT_DIR$/testresult/test1.html.zip" />
       <change beforePath="$PROJECT_DIR$/testresult/test3.html.zip" afterPath="$PROJECT_DIR$/testresult/test3.html.zip" />
       <change beforePath="$PROJECT_DIR$/testresult/test4.html.zip" afterPath="$PROJECT_DIR$/testresult/test4.html.zip" />
+      <change beforePath="$PROJECT_DIR$/testresult/test_ocr.jpg_en.html" afterPath="$PROJECT_DIR$/testresult/test_ocr.jpg_en.html" />
+      <change beforePath="$PROJECT_DIR$/testresult/test_ocr.png_en.html" afterPath="$PROJECT_DIR$/testresult/test_ocr.png_en.html" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,11 +246,155 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OcrApiTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="238">
+                <caret line="107" column="12" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+                <folding>
+                  <marker date="1525367452618" expanded="true" signature="787:1967" ph="..." />
+                  <marker date="1525367452618" expanded="true" signature="1619:1841" ph="..." />
+                  <marker date="1525367452618" expanded="true" signature="1865:1965" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversionApi.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Api/ConversionApi.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="520">
+                <caret line="316" column="19" lean-forward="false" selection-start-line="316" selection-start-column="19" selection-end-line="316" selection-end-column="19" />
+                <folding>
+                  <marker date="1525365871273" expanded="true" signature="1601:2787" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="2433:2655" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="2679:2785" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="4312:5514" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="5144:5377" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="5401:5512" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="6956:7869" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="7562:7739" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="7763:7867" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="9088:10031" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="9708:9896" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="9920:10029" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="11251:12164" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="11857:12034" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="12058:12162" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="13383:14326" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="14003:14191" ph="..." />
+                  <marker date="1525365871273" expanded="true" signature="14215:14324" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentApi.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Api/DocumentApi.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1525365871067" expanded="true" signature="828:1318" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="1112:1202" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="1226:1316" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="2102:2806" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="2548:2675" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="2699:2804" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="3677:4181" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="3963:4059" ph="..." />
+                  <marker date="1525365871067" expanded="true" signature="4083:4179" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversionApiTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
+            <state relative-caret-position="91">
+              <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OcrApi.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Api/OcrApi.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1525365870516" expanded="true" signature="836:1451" ph="..." />
+                  <marker date="1525365870516" expanded="true" signature="1200:1324" ph="..." />
+                  <marker date="1525365870516" expanded="true" signature="1348:1449" ph="..." />
+                  <marker date="1525365870516" expanded="true" signature="2380:3102" ph="..." />
+                  <marker date="1525365870516" expanded="true" signature="2841:2972" ph="..." />
+                  <marker date="1525365870516" expanded="true" signature="2996:3100" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranslationApi.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Api/TranslationApi.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="605">
+                <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+                <folding>
+                  <marker date="1525365870638" expanded="true" signature="790:1457" ph="..." />
+                  <marker date="1525365870638" expanded="true" signature="1208:1329" ph="..." />
+                  <marker date="1525365870638" expanded="true" signature="1353:1455" ph="..." />
+                  <marker date="1525365870638" expanded="true" signature="2308:2851" ph="..." />
+                  <marker date="1525365870638" expanded="true" signature="2605:2718" ph="..." />
+                  <marker date="1525365870638" expanded="true" signature="2742:2849" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#1454#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APIClient.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/APIClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StorageApi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/StorageApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,28 +403,8 @@
       <file leaf-file-name="BaseTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslationApiTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversionApiTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1929">
-              <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+            <state relative-caret-position="612">
+              <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -167,13 +414,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Configuration::getDefaultConfiguration()-&gt;getTempFolderPath()</find>
-      <find>tempFolderPath</find>
-      <find>defaultConfiguration</find>
-      <find>DocumentApi</find>
-      <find>Configuration</find>
-      <find>Invoker\Client</find>
-      <find>ClientInterface</find>
       <find>getUserAgent</find>
       <find>FileExistResponse</find>
       <find>getUserAgent()</find>
@@ -197,13 +437,25 @@
       <find>ocrGetRecognizeAndImportToHtml</find>
       <find>ocrGetRecognizeAndTranslateToHtml</find>
       <find>OcrGetRecognizeAndTranslateToHtml</find>
+      <find>conversionGet</find>
+      <find>api-qa.aspose</find>
+      <find>documentGet</find>
+      <find>ocrGet</find>
+      <find>translationGet</find>
+      <find>Put</find>
+      <find>Model</find>
     </findStrings>
     <replaceStrings>
       <replace>$this-&gt;config['defaultUserAgent']</replace>
       <replace>$this-&gt;config['debug']</replace>
       <replace>$this-&gt;config['debugFile']</replace>
       <replace>$this-&gt;config['basePath']</replace>
+      <replace>api.aspose</replace>
+      <replace>Get</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\WORK\Aspose.Html.Cloud.SDK\Aspose.HTML.Cloud.SDK.PHP.Client</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -217,12 +469,10 @@
         <option value="$PROJECT_DIR$/lib/test.php" />
         <option value="$PROJECT_DIR$/OAuth2.php" />
         <option value="$PROJECT_DIR$/lib/Configuration.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/Client/BaseApi.php" />
         <option value="$PROJECT_DIR$/lib/Client/Config.php" />
         <option value="$PROJECT_DIR$/lib/ObjectSerializer.php" />
         <option value="$PROJECT_DIR$/lib/Client/ConversionApi.php" />
-        <option value="$PROJECT_DIR$/lib/Config.php" />
         <option value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" />
         <option value="$PROJECT_DIR$/test/Api/BaseTest.php" />
         <option value="$PROJECT_DIR$/lib/Api/DocumentApi.php" />
@@ -234,6 +484,12 @@
         <option value="$PROJECT_DIR$/test/Api/OcrApiTest.php" />
         <option value="$PROJECT_DIR$/test/Api/TranslationApiTest.php" />
         <option value="$PROJECT_DIR$/test/Api/ConversionApiTest.php" />
+        <option value="$PROJECT_DIR$/docs/Api/ConversionApi.md" />
+        <option value="$PROJECT_DIR$/docs/Api/DocumentApi.md" />
+        <option value="$PROJECT_DIR$/docs/Api/OcrApi.md" />
+        <option value="$PROJECT_DIR$/docs/Api/TranslationApi.md" />
+        <option value="$PROJECT_DIR$/lib/Config.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -321,28 +577,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="SwaggerClient-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwaggerClient-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aspose.HTML.Cloud.SDK.PHP.Client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -350,15 +595,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -435,24 +680,25 @@
       <workItem from="1521529729501" duration="41994000" />
       <workItem from="1521615220111" duration="42088000" />
       <workItem from="1521709805596" duration="5426000" />
+      <workItem from="1525361448994" duration="5550000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest - 2018.03.22 at 13h 16m 44s.xml">
+    <history-entry file="AllTest - 2018.05.03 at 19h 45m 55s.xml">
       <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ConversionApiTest - 2018.03.22 at 12h 46m 43s.xml">
-      <configuration name="ConversionApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2018.05.03 at 19h 47m 08s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 02m 36s.xml">
-      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2018.05.03 at 19h 48m 34s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 03m 28s.xml">
-      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2018.05.03 at 19h 49m 10s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TranslationApiTest - 2018.03.22 at 12h 03m 54s.xml">
-      <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="AllTest - 2018.05.03 at 20h 10m 20s.xml">
+      <configuration name="AllTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="TranslationApiTest - 2018.03.22 at 12h 04m 14s.xml">
       <configuration name="TranslationApiTest" configurationId="PHPUnitRunConfigurationType" />
@@ -471,22 +717,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113036000" />
+    <option name="totallyTimeSpent" value="118586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.189375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19151671" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52555704" sideWeight="0.1575" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39748955" sideWeight="0.5122108" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6243243" sideWeight="0.8425" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.553696" sideWeight="0.83868897" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6644823" sideWeight="0.4925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39864865" sideWeight="0.49" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5523012" sideWeight="0.4877892" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -494,7 +742,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30799475" sideWeight="0.52875" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -506,35 +753,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/TranslationApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5916">
-          <caret line="348" column="91" lean-forward="false" selection-start-line="348" selection-start-column="56" selection-end-line="348" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/OcrApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5542">
-          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -592,24 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Api/ConversionApi.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml" />
     <entry file="file://$PROJECT_DIR$/lib/test.php" />
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,16 +860,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth2.php" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="317">
-            <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Client/Model/ModelInterface.php" />
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,13 +909,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/APIClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -734,26 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/StorageApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="215" column="26" lean-forward="false" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ApiException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,35 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="119" column="6" lean-forward="true" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/DocumentApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/HtmlApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#179#210#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Api/ConversionApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="1773" column="221" lean-forward="false" selection-start-line="1773" selection-start-column="58" selection-end-line="1773" selection-end-column="221" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,18 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/OcrApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="90" column="57" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="57" />
+          <caret line="90" column="5" lean-forward="false" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -843,17 +978,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/TranslationApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="1666">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/ConversionApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11152">
+          <caret line="1773" column="18" lean-forward="false" selection-start-line="1773" selection-start-column="18" selection-end-line="1773" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/DocumentApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Api/HtmlApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="76" column="38" lean-forward="false" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Api/BaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Api/ConversionApi.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="520">
+            <caret line="316" column="19" lean-forward="false" selection-start-line="316" selection-start-column="19" selection-end-line="316" selection-end-column="19" />
+            <folding>
+              <marker date="1525365871273" expanded="true" signature="1601:2787" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="2433:2655" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="2679:2785" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="4312:5514" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="5144:5377" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="5401:5512" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="6956:7869" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="7562:7739" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="7763:7867" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="9088:10031" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="9708:9896" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="9920:10029" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="11251:12164" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="11857:12034" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="12058:12162" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="13383:14326" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="14003:14191" ph="..." />
+              <marker date="1525365871273" expanded="true" signature="14215:14324" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Api/DocumentApi.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1525365871067" expanded="true" signature="828:1318" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="1112:1202" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="1226:1316" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="2102:2806" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="2548:2675" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="2699:2804" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="3677:4181" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="3963:4059" ph="..." />
+              <marker date="1525365871067" expanded="true" signature="4083:4179" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Api/OcrApi.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1525365870516" expanded="true" signature="836:1451" ph="..." />
+              <marker date="1525365870516" expanded="true" signature="1200:1324" ph="..." />
+              <marker date="1525365870516" expanded="true" signature="1348:1449" ph="..." />
+              <marker date="1525365870516" expanded="true" signature="2380:3102" ph="..." />
+              <marker date="1525365870516" expanded="true" signature="2841:2972" ph="..." />
+              <marker date="1525365870516" expanded="true" signature="2996:3100" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Api/TranslationApi.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="605">
+            <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <folding>
+              <marker date="1525365870638" expanded="true" signature="790:1457" ph="..." />
+              <marker date="1525365870638" expanded="true" signature="1208:1329" ph="..." />
+              <marker date="1525365870638" expanded="true" signature="1353:1455" ph="..." />
+              <marker date="1525365870638" expanded="true" signature="2308:2851" ph="..." />
+              <marker date="1525365870638" expanded="true" signature="2605:2718" ph="..." />
+              <marker date="1525365870638" expanded="true" signature="2742:2849" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#1454#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/StorageApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aspose/storage-sdk-php/src/Aspose/Storage/APIClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Api/ConversionApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1929">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+        <state relative-caret-position="91">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="107" column="12" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+            <folding>
+              <marker date="1525367452618" expanded="true" signature="787:1967" ph="..." />
+              <marker date="1525367452618" expanded="true" signature="1619:1841" ph="..." />
+              <marker date="1525367452618" expanded="true" signature="1865:1965" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

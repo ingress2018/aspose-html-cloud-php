@@ -1,4 +1,30 @@
 <?php
+/*
+* --------------------------------------------------------------------------------------------------------------------
+* <copyright company="Aspose" file="OcrApi.php">
+*   Copyright (c) 2018 Aspose.HTML for Cloud
+* </copyright>
+* <summary>
+*   Permission is hereby granted, free of charge, to any person obtaining a copy
+*  of this software and associated documentation files (the "Software"), to deal
+*  in the Software without restriction, including without limitation the rights
+*  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*  copies of the Software, and to permit persons to whom the Software is
+*  furnished to do so, subject to the following conditions:
+*
+*  The above copyright notice and this permission notice shall be included in all
+*  copies or substantial portions of the Software.
+*
+*  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+*  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+*  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+*  SOFTWARE.
+* </summary>
+* --------------------------------------------------------------------------------------------------------------------
+*/
 
 namespace Client\Invoker\Api;
 
@@ -16,7 +42,7 @@ use Client\Invoker\ObjectSerializer;
 trait OcrApi
 {
     /**
-     * Operation ocrGetRecognizeAndImportToHtml
+     * Operation GetRecognizeAndImportToHtml
      *
      * Recognize text from the image file in the storage and import it to HTML format.
      *
@@ -29,14 +55,14 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
-    public function ocrGetRecognizeAndImportToHtml($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
+    public function GetRecognizeAndImportToHtml($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
-        list($response) = $this->ocrGetRecognizeAndImportToHtmlWithHttpInfo($name, $ocr_engine_lang, $folder, $storage);
+        list($response) = $this->GetRecognizeAndImportToHtmlWithHttpInfo($name, $ocr_engine_lang, $folder, $storage);
         return $response;
     }
 
     /**
-     * Operation ocrGetRecognizeAndImportToHtmlWithHttpInfo
+     * Operation GetRecognizeAndImportToHtmlWithHttpInfo
      *
      * Recognize text from the image file in the storage and import it to HTML format.
      *
@@ -49,10 +75,10 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function ocrGetRecognizeAndImportToHtmlWithHttpInfo($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
+    public function GetRecognizeAndImportToHtmlWithHttpInfo($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->ocrGetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang, $folder, $storage);
+        $request = $this->GetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang, $folder, $storage);
 
         try {
             $options = $this->createHttpClientOption();
@@ -114,7 +140,7 @@ trait OcrApi
     }
 
     /**
-     * Operation ocrGetRecognizeAndImportToHtmlAsync
+     * Operation GetRecognizeAndImportToHtmlAsync
      *
      * Recognize text from the image file in the storage and import it to HTML format.
      *
@@ -126,9 +152,9 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function ocrGetRecognizeAndImportToHtmlAsync($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
+    public function GetRecognizeAndImportToHtmlAsync($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
-        return $this->ocrGetRecognizeAndImportToHtmlAsyncWithHttpInfo($name, $ocr_engine_lang, $folder, $storage)
+        return $this->GetRecognizeAndImportToHtmlAsyncWithHttpInfo($name, $ocr_engine_lang, $folder, $storage)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -137,7 +163,7 @@ trait OcrApi
     }
 
     /**
-     * Operation ocrGetRecognizeAndImportToHtmlAsyncWithHttpInfo
+     * Operation GetRecognizeAndImportToHtmlAsyncWithHttpInfo
      *
      * Recognize text from the image file in the storage and import it to HTML format.
      *
@@ -149,10 +175,10 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function ocrGetRecognizeAndImportToHtmlAsyncWithHttpInfo($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
+    public function GetRecognizeAndImportToHtmlAsyncWithHttpInfo($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->ocrGetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang, $folder, $storage);
+        $request = $this->GetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang, $folder, $storage);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -192,7 +218,7 @@ trait OcrApi
     }
 
     /**
-     * Create request for operation 'ocrGetRecognizeAndImportToHtml'
+     * Create request for operation 'GetRecognizeAndImportToHtml'
      *
      * @param  string $name The image file name. (required)
      * @param  string $ocr_engine_lang OCR engine language - language (optional, default to en)
@@ -202,12 +228,12 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function ocrGetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
+    protected function GetRecognizeAndImportToHtmlRequest($name, $ocr_engine_lang = 'en', $folder = null, $storage = null)
     {
         // verify the required parameter 'name' is set
         if ($name === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $name when calling ocrGetRecognizeAndImportToHtml'
+                'Missing the required parameter $name when calling GetRecognizeAndImportToHtml'
             );
         }
 
@@ -305,7 +331,7 @@ trait OcrApi
     }
 
     /**
-     * Operation ocrGetRecognizeAndTranslateToHtml
+     * Operation GetRecognizeAndTranslateToHtml
      *
      * Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
      *
@@ -319,14 +345,14 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
-    public function ocrGetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder = null, $storage = null)
+    public function GetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
-        list($response) = $this->ocrGetRecognizeAndTranslateToHtmlWithHttpInfo($name, $src_lang, $res_lang, $folder, $storage);
+        list($response) = $this->GetRecognizeAndTranslateToHtmlWithHttpInfo($name, $src_lang, $res_lang, $folder, $storage);
         return $response;
     }
 
     /**
-     * Operation ocrGetRecognizeAndTranslateToHtmlWithHttpInfo
+     * Operation GetRecognizeAndTranslateToHtmlWithHttpInfo
      *
      * Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
      *
@@ -340,10 +366,10 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function ocrGetRecognizeAndTranslateToHtmlWithHttpInfo($name, $src_lang, $res_lang, $folder = null, $storage = null)
+    public function GetRecognizeAndTranslateToHtmlWithHttpInfo($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->ocrGetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder, $storage);
+        $request = $this->GetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder, $storage);
 
         try {
             $options = $this->createHttpClientOption();
@@ -405,7 +431,7 @@ trait OcrApi
     }
 
     /**
-     * Operation ocrGetRecognizeAndTranslateToHtmlAsync
+     * Operation GetRecognizeAndTranslateToHtmlAsync
      *
      * Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
      *
@@ -418,9 +444,9 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function ocrGetRecognizeAndTranslateToHtmlAsync($name, $src_lang, $res_lang, $folder = null, $storage = null)
+    public function GetRecognizeAndTranslateToHtmlAsync($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
-        return $this->ocrGetRecognizeAndTranslateToHtmlAsyncWithHttpInfo($name, $src_lang, $res_lang, $folder, $storage)
+        return $this->GetRecognizeAndTranslateToHtmlAsyncWithHttpInfo($name, $src_lang, $res_lang, $folder, $storage)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -429,7 +455,7 @@ trait OcrApi
     }
 
     /**
-     * Operation ocrGetRecognizeAndTranslateToHtmlAsyncWithHttpInfo
+     * Operation GetRecognizeAndTranslateToHtmlAsyncWithHttpInfo
      *
      * Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
      *
@@ -442,10 +468,10 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function ocrGetRecognizeAndTranslateToHtmlAsyncWithHttpInfo($name, $src_lang, $res_lang, $folder = null, $storage = null)
+    public function GetRecognizeAndTranslateToHtmlAsyncWithHttpInfo($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->ocrGetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder, $storage);
+        $request = $this->GetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder, $storage);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -485,7 +511,7 @@ trait OcrApi
     }
 
     /**
-     * Create request for operation 'ocrGetRecognizeAndTranslateToHtml'
+     * Create request for operation 'GetRecognizeAndTranslateToHtml'
      *
      * @param  string $name The image file name. (required)
      * @param  string $src_lang Source language - also supposed as the OCR engine language. (required)
@@ -496,24 +522,24 @@ trait OcrApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function ocrGetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder = null, $storage = null)
+    protected function GetRecognizeAndTranslateToHtmlRequest($name, $src_lang, $res_lang, $folder = null, $storage = null)
     {
         // verify the required parameter 'name' is set
         if ($name === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $name when calling ocrGetRecognizeAndTranslateToHtml'
+                'Missing the required parameter $name when calling GetRecognizeAndTranslateToHtml'
             );
         }
         // verify the required parameter 'src_lang' is set
         if ($src_lang === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $src_lang when calling ocrGetRecognizeAndTranslateToHtml'
+                'Missing the required parameter $src_lang when calling GetRecognizeAndTranslateToHtml'
             );
         }
         // verify the required parameter 'res_lang' is set
         if ($res_lang === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $res_lang when calling ocrGetRecognizeAndTranslateToHtml'
+                'Missing the required parameter $res_lang when calling GetRecognizeAndTranslateToHtml'
             );
         }
 

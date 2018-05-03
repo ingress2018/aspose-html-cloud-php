@@ -1,20 +1,30 @@
 <?php
-/**
- * ConversionApiTest
- * PHP version 5
- *
- * @category Class
- * @package  Client\Invoker
- * @author   Swagger Codegen team
- * @link     https://github.com/swagger-api/swagger-codegen
- */
-
-/**
- * Aspose.Html for Cloud API Reference
- *
- * OpenAPI spec version: 1.1
- * 
- */
+/*
+* --------------------------------------------------------------------------------------------------------------------
+* <copyright company="Aspose" file="ConversionApiTest.php">
+*   Copyright (c) 2018 Aspose.HTML for Cloud
+* </copyright>
+* <summary>
+*   Permission is hereby granted, free of charge, to any person obtaining a copy
+*  of this software and associated documentation files (the "Software"), to deal
+*  in the Software without restriction, including without limitation the rights
+*  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*  copies of the Software, and to permit persons to whom the Software is
+*  furnished to do so, subject to the following conditions:
+*
+*  The above copyright notice and this permission notice shall be included in all
+*  copies or substantial portions of the Software.
+*
+*  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+*  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+*  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+*  SOFTWARE.
+* </summary>
+* --------------------------------------------------------------------------------------------------------------------
+*/
 
 namespace Client\Invoker\Api;
 
@@ -49,7 +59,7 @@ class ConversionApiTest extends BaseTest
     }
 
     /**
-     * Test case for conversionGetConvertDocumentToImage
+     * Test case for GetConvertDocumentToImage
      *
      * Convert the HTML document from the storage by its name to the specified image format..
      * @param  string $out_format Resulting image format. (required)
@@ -67,7 +77,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToImage
      *
      */
-    public function testConversionGetConvertDocumentToImage
+    public function testGetConvertDocumentToImage
     ( $out_format, $width = null, $height = null, $left_margin = null, $right_margin = null, $top_margin = null,
       $bottom_margin = null, $x_resolution = null, $y_resolution = null, $folder = null, $storage = null )
     {
@@ -77,7 +87,7 @@ class ConversionApiTest extends BaseTest
         $this->uploadFile($fileName);
 
         //Request to server Api
-        $result = self::$api->ConversionGetConvertDocumentToImage
+        $result = self::$api->GetConvertDocumentToImage
         ( $fileName, $out_format, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin,
           $x_resolution, $y_resolution, $folder, $storage);
 
@@ -143,7 +153,7 @@ class ConversionApiTest extends BaseTest
 
 
     /**
-     * Test case for conversionGetConvertDocumentToImageByUrl
+     * Test case for GetConvertDocumentToImageByUrl
      *
      * Convert the HTML page from the web by its URL to the specified image format..
      * @param  string $out_format Resulting image format. (required)
@@ -162,7 +172,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToImage
      *
      */
-    public function testConversionGetConvertDocumentToImageByUrl
+    public function testGetConvertDocumentToImageByUrl
     ($out_format, $width = null, $height = null, $left_margin = null, $right_margin = null,
      $top_margin = null, $bottom_margin = null, $x_resolution = null, $y_resolution = null, $folder = null, $storage = null)
     {
@@ -170,7 +180,7 @@ class ConversionApiTest extends BaseTest
         $folder = $folder ?: self::$api->config['remoteFolder'];
 
         //Request to server Api
-        $result = self::$api->conversionGetConvertDocumentToImageByUrl
+        $result = self::$api->GetConvertDocumentToImageByUrl
         ( $source_url, $out_format, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin,
           $x_resolution, $y_resolution, $folder, $storage);
 
@@ -191,7 +201,7 @@ class ConversionApiTest extends BaseTest
 
 
     /**
-     * Test case for conversionGetConvertDocumentToPdf
+     * Test case for GetConvertDocumentToPdf
      *
      * Convert the HTML document from the storage by its name to PDF.
      *
@@ -207,7 +217,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToPdfOrXps
      *
      */
-    public function testConversionGetConvertDocumentToPdf
+    public function testGetConvertDocumentToPdf
     ($width = null, $height = null, $left_margin = null, $right_margin = null, $top_margin = null,
      $bottom_margin = null, $folder = null, $storage = null)
     {
@@ -217,7 +227,7 @@ class ConversionApiTest extends BaseTest
         $this->uploadFile($fileName);
 
         //Request to server Api
-        $result = self::$api->conversionGetConvertDocumentToPdf($fileName, $width, $height, $left_margin, $right_margin,
+        $result = self::$api->GetConvertDocumentToPdf($fileName, $width, $height, $left_margin, $right_margin,
             $top_margin, $bottom_margin, $folder, $storage);
 
         $this->assertTrue($result->isFile(),"Error result after recognize");
@@ -278,7 +288,7 @@ class ConversionApiTest extends BaseTest
     }
 
     /**
-     * Test case for conversionGetConvertDocumentToPdfByUrl
+     * Test case for GetConvertDocumentToPdfByUrl
      *
      * Convert the HTML page from the web by its URL to PDF.
      *
@@ -294,7 +304,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToPdfOrXps
      *
      */
-    public function testConversionGetConvertDocumentToPdfByUrl
+    public function testGetConvertDocumentToPdfByUrl
     ($width = null, $height = null, $left_margin = null, $right_margin = null, $top_margin = null,
      $bottom_margin = null, $folder = null, $storage = null)
     {
@@ -302,7 +312,7 @@ class ConversionApiTest extends BaseTest
         $folder = $folder ?: self::$api->config['remoteFolder'];
 
         //Request to server Api
-        $result = self::$api->conversionGetConvertDocumentToPdfByUrl($source_url, $width, $height, $left_margin,
+        $result = self::$api->GetConvertDocumentToPdfByUrl($source_url, $width, $height, $left_margin,
             $right_margin, $top_margin, $bottom_margin, $folder, $storage);
 
         $this->assertTrue($result->isFile(),"Error result after recognize");
@@ -320,7 +330,7 @@ class ConversionApiTest extends BaseTest
     }
 
     /**
-     * Test case for conversionGetConvertDocumentToXps
+     * Test case for GetConvertDocumentToXps
      *
      * Convert the HTML document from the storage by its name to XPS..
      *
@@ -336,7 +346,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToPdfOrXps
      *
      */
-    public function testConversionGetConvertDocumentToXps
+    public function testGetConvertDocumentToXps
     ($width = null, $height = null, $left_margin = null, $right_margin = null, $top_margin = null,
      $bottom_margin = null, $folder = null, $storage = null)
     {
@@ -346,7 +356,7 @@ class ConversionApiTest extends BaseTest
         $this->uploadFile($fileName);
 
         //Request to server Api
-        $result = self::$api->conversionGetConvertDocumentToXps($fileName, $width, $height, $left_margin, $right_margin,
+        $result = self::$api->GetConvertDocumentToXps($fileName, $width, $height, $left_margin, $right_margin,
             $top_margin, $bottom_margin, $folder, $storage);
 
         $this->assertTrue($result->isFile(),"Error result after recognize");
@@ -364,7 +374,7 @@ class ConversionApiTest extends BaseTest
     }
 
     /**
-     * Test case for conversionGetConvertDocumentToXpsByUrl
+     * Test case for GetConvertDocumentToXpsByUrl
      *
      * Convert the HTML page from the web by its URL to XPS.
      *
@@ -381,7 +391,7 @@ class ConversionApiTest extends BaseTest
      * @dataProvider providerConversionToPdfOrXps
      *
      */
-    public function testConversionGetConvertDocumentToXpsByUrl
+    public function testGetConvertDocumentToXpsByUrl
     ($width = null, $height = null,  $left_margin = null, $right_margin = null, $top_margin = null,
      $bottom_margin = null, $folder = null, $storage = null)
     {
@@ -389,7 +399,7 @@ class ConversionApiTest extends BaseTest
         $folder = $folder ?: self::$api->config['remoteFolder'];
 
         //Request to server Api
-        $result = self::$api->conversionGetConvertDocumentToXpsByUrl($source_url, $width, $height, $left_margin,
+        $result = self::$api->GetConvertDocumentToXpsByUrl($source_url, $width, $height, $left_margin,
             $right_margin, $top_margin, $bottom_margin, $folder, $storage);
 
         $this->assertTrue($result->isFile(),"Error result after recognize");

@@ -1,4 +1,30 @@
 <?php
+/*
+* --------------------------------------------------------------------------------------------------------------------
+* <copyright company="Aspose" file="DocumentApi.php">
+*   Copyright (c) 2018 Aspose.HTML for Cloud
+* </copyright>
+* <summary>
+*   Permission is hereby granted, free of charge, to any person obtaining a copy
+*  of this software and associated documentation files (the "Software"), to deal
+*  in the Software without restriction, including without limitation the rights
+*  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*  copies of the Software, and to permit persons to whom the Software is
+*  furnished to do so, subject to the following conditions:
+*
+*  The above copyright notice and this permission notice shall be included in all
+*  copies or substantial portions of the Software.
+*
+*  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+*  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+*  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+*  SOFTWARE.
+* </summary>
+* --------------------------------------------------------------------------------------------------------------------
+*/
 
 namespace Client\Invoker\Api;
 
@@ -18,7 +44,7 @@ use Client\Invoker\ObjectSerializer;
 trait DocumentApi
 {
     /**
-     * Operation documentGetDocument
+     * Operation GetDocument
      *
      * Return the HTML document by the name from default or specified storage.
      *
@@ -30,14 +56,14 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
-    public function documentGetDocument($name, $storage = null, $folder = null)
+    public function GetDocument($name, $storage = null, $folder = null)
     {
-        list($response) = $this->documentGetDocumentWithHttpInfo($name, $storage, $folder);
+        list($response) = $this->GetDocumentWithHttpInfo($name, $storage, $folder);
         return $response;
     }
 
     /**
-     * Operation documentGetDocumentWithHttpInfo
+     * Operation GetDocumentWithHttpInfo
      *
      * Return the HTML document by the name from default or specified storage.
      *
@@ -49,10 +75,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function documentGetDocumentWithHttpInfo($name, $storage = null, $folder = null)
+    public function GetDocumentWithHttpInfo($name, $storage = null, $folder = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentRequest($name, $storage, $folder);
+        $request = $this->GetDocumentRequest($name, $storage, $folder);
 
         try {
             $options = $this->createHttpClientOption();
@@ -114,7 +140,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentAsync
+     * Operation GetDocumentAsync
      *
      * Return the HTML document by the name from default or specified storage.
      *
@@ -125,9 +151,9 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentAsync($name, $storage = null, $folder = null)
+    public function GetDocumentAsync($name, $storage = null, $folder = null)
     {
-        return $this->documentGetDocumentAsyncWithHttpInfo($name, $storage, $folder)
+        return $this->GetDocumentAsyncWithHttpInfo($name, $storage, $folder)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -136,7 +162,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentAsyncWithHttpInfo
+     * Operation GetDocumentAsyncWithHttpInfo
      *
      * Return the HTML document by the name from default or specified storage.
      *
@@ -147,10 +173,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentAsyncWithHttpInfo($name, $storage = null, $folder = null)
+    public function GetDocumentAsyncWithHttpInfo($name, $storage = null, $folder = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentRequest($name, $storage, $folder);
+        $request = $this->GetDocumentRequest($name, $storage, $folder);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -190,7 +216,7 @@ trait DocumentApi
     }
 
     /**
-     * Create request for operation 'documentGetDocument'
+     * Create request for operation 'GetDocument'
      *
      * @param  string $name The document name. (required)
      * @param  string $storage The document folder (optional)
@@ -199,12 +225,12 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function documentGetDocumentRequest($name, $storage = null, $folder = null)
+    protected function GetDocumentRequest($name, $storage = null, $folder = null)
     {
         // verify the required parameter 'name' is set
         if ($name === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $name when calling documentGetDocument'
+                'Missing the required parameter $name when calling GetDocument'
             );
         }
 
@@ -298,7 +324,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentFragmentByXPath
+     * Operation GetDocumentFragmentByXPath
      *
      * Return list of HTML fragments matching the specified XPath query.
      *
@@ -312,14 +338,14 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
-    public function documentGetDocumentFragmentByXPath($name, $x_path, $out_format, $storage = null, $folder = null)
+    public function GetDocumentFragmentByXPath($name, $x_path, $out_format, $storage = null, $folder = null)
     {
-        list($response) = $this->documentGetDocumentFragmentByXPathWithHttpInfo($name, $x_path, $out_format, $storage, $folder);
+        list($response) = $this->GetDocumentFragmentByXPathWithHttpInfo($name, $x_path, $out_format, $storage, $folder);
         return $response;
     }
 
     /**
-     * Operation documentGetDocumentFragmentByXPathWithHttpInfo
+     * Operation GetDocumentFragmentByXPathWithHttpInfo
      *
      * Return list of HTML fragments matching the specified XPath query.
      *
@@ -333,10 +359,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function documentGetDocumentFragmentByXPathWithHttpInfo($name, $x_path, $out_format, $storage = null, $folder = null)
+    public function GetDocumentFragmentByXPathWithHttpInfo($name, $x_path, $out_format, $storage = null, $folder = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage, $folder);
+        $request = $this->GetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage, $folder);
 
         try {
             $options = $this->createHttpClientOption();
@@ -398,7 +424,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentFragmentByXPathAsync
+     * Operation GetDocumentFragmentByXPathAsync
      *
      * Return list of HTML fragments matching the specified XPath query.
      *
@@ -411,9 +437,9 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentFragmentByXPathAsync($name, $x_path, $out_format, $storage = null, $folder = null)
+    public function GetDocumentFragmentByXPathAsync($name, $x_path, $out_format, $storage = null, $folder = null)
     {
-        return $this->documentGetDocumentFragmentByXPathAsyncWithHttpInfo($name, $x_path, $out_format, $storage, $folder)
+        return $this->GetDocumentFragmentByXPathAsyncWithHttpInfo($name, $x_path, $out_format, $storage, $folder)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -422,7 +448,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentFragmentByXPathAsyncWithHttpInfo
+     * Operation GetDocumentFragmentByXPathAsyncWithHttpInfo
      *
      * Return list of HTML fragments matching the specified XPath query.
      *
@@ -435,10 +461,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentFragmentByXPathAsyncWithHttpInfo($name, $x_path, $out_format, $storage = null, $folder = null)
+    public function GetDocumentFragmentByXPathAsyncWithHttpInfo($name, $x_path, $out_format, $storage = null, $folder = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage, $folder);
+        $request = $this->GetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage, $folder);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -478,7 +504,7 @@ trait DocumentApi
     }
 
     /**
-     * Create request for operation 'documentGetDocumentFragmentByXPath'
+     * Create request for operation 'GetDocumentFragmentByXPath'
      *
      * @param  string $name The document name. (required)
      * @param  string $x_path XPath query string. (required)
@@ -489,24 +515,24 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function documentGetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage = null, $folder = null)
+    protected function GetDocumentFragmentByXPathRequest($name, $x_path, $out_format, $storage = null, $folder = null)
     {
         // verify the required parameter 'name' is set
         if ($name === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $name when calling documentGetDocumentFragmentByXPath'
+                'Missing the required parameter $name when calling GetDocumentFragmentByXPath'
             );
         }
         // verify the required parameter 'x_path' is set
         if ($x_path === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $x_path when calling documentGetDocumentFragmentByXPath'
+                'Missing the required parameter $x_path when calling GetDocumentFragmentByXPath'
             );
         }
         // verify the required parameter 'out_format' is set
         if ($out_format === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $out_format when calling documentGetDocumentFragmentByXPath'
+                'Missing the required parameter $out_format when calling GetDocumentFragmentByXPath'
             );
         }
 
@@ -612,7 +638,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentImages
+     * Operation GetDocumentImages
      *
      * Return all HTML document images packaged as a ZIP archive.
      *
@@ -624,14 +650,14 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \SplFileObject
      */
-    public function documentGetDocumentImages($name, $folder = null, $storage = null)
+    public function GetDocumentImages($name, $folder = null, $storage = null)
     {
-        list($response) = $this->documentGetDocumentImagesWithHttpInfo($name, $folder, $storage);
+        list($response) = $this->GetDocumentImagesWithHttpInfo($name, $folder, $storage);
         return $response;
     }
 
     /**
-     * Operation documentGetDocumentImagesWithHttpInfo
+     * Operation GetDocumentImagesWithHttpInfo
      *
      * Return all HTML document images packaged as a ZIP archive.
      *
@@ -643,10 +669,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function documentGetDocumentImagesWithHttpInfo($name, $folder = null, $storage = null)
+    public function GetDocumentImagesWithHttpInfo($name, $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentImagesRequest($name, $folder, $storage);
+        $request = $this->GetDocumentImagesRequest($name, $folder, $storage);
 
         try {
             $options = $this->createHttpClientOption();
@@ -708,7 +734,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentImagesAsync
+     * Operation GetDocumentImagesAsync
      *
      * Return all HTML document images packaged as a ZIP archive.
      *
@@ -719,9 +745,9 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentImagesAsync($name, $folder = null, $storage = null)
+    public function GetDocumentImagesAsync($name, $folder = null, $storage = null)
     {
-        return $this->documentGetDocumentImagesAsyncWithHttpInfo($name, $folder, $storage)
+        return $this->GetDocumentImagesAsyncWithHttpInfo($name, $folder, $storage)
             ->then(
                 function ($response) {
                     return $response[0];
@@ -730,7 +756,7 @@ trait DocumentApi
     }
 
     /**
-     * Operation documentGetDocumentImagesAsyncWithHttpInfo
+     * Operation GetDocumentImagesAsyncWithHttpInfo
      *
      * Return all HTML document images packaged as a ZIP archive.
      *
@@ -741,10 +767,10 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function documentGetDocumentImagesAsyncWithHttpInfo($name, $folder = null, $storage = null)
+    public function GetDocumentImagesAsyncWithHttpInfo($name, $folder = null, $storage = null)
     {
         $returnType = '\SplFileObject';
-        $request = $this->documentGetDocumentImagesRequest($name, $folder, $storage);
+        $request = $this->GetDocumentImagesRequest($name, $folder, $storage);
 
         return $this->client
             ->sendAsync($request, $this->createHttpClientOption())
@@ -784,7 +810,7 @@ trait DocumentApi
     }
 
     /**
-     * Create request for operation 'documentGetDocumentImages'
+     * Create request for operation 'GetDocumentImages'
      *
      * @param  string $name The document name. (required)
      * @param  string $folder The document folder. (optional)
@@ -793,12 +819,12 @@ trait DocumentApi
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
      */
-    protected function documentGetDocumentImagesRequest($name, $folder = null, $storage = null)
+    protected function GetDocumentImagesRequest($name, $folder = null, $storage = null)
     {
         // verify the required parameter 'name' is set
         if ($name === null) {
             throw new \InvalidArgumentException(
-                'Missing the required parameter $name when calling documentGetDocumentImages'
+                'Missing the required parameter $name when calling GetDocumentImages'
             );
         }
 

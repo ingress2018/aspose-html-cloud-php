@@ -1,15 +1,15 @@
 # Client\Invoker\OcrApi
 
-All URIs are relative to *https://api-qa.aspose.cloud/v1.1*
+All URIs are relative to *https://api.aspose.cloud/v1.1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**ocrGetRecognizeAndImportToHtml**](OcrApi.md#ocrGetRecognizeAndImportToHtml) | **GET** /html/{name}/ocr/import | Recognize text from the image file in the storage and import it to HTML format.
-[**ocrGetRecognizeAndTranslateToHtml**](OcrApi.md#ocrGetRecognizeAndTranslateToHtml) | **GET** /html/{name}/ocr/translate/{srcLang}/{resLang} | Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
+[**GetRecognizeAndImportToHtml**](OcrApi.md#GetRecognizeAndImportToHtml) | **GET** /html/{name}/ocr/import | Recognize text from the image file in the storage and import it to HTML format.
+[**GetRecognizeAndTranslateToHtml**](OcrApi.md#GetRecognizeAndTranslateToHtml) | **GET** /html/{name}/ocr/translate/{srcLang}/{resLang} | Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
 
 
-# **ocrGetRecognizeAndImportToHtml**
-> \SplFileObject ocrGetRecognizeAndImportToHtml($name, $ocr_engine_lang, $folder, $storage)
+# **GetRecognizeAndImportToHtml**
+> \SplFileObject GetRecognizeAndImportToHtml($name, $ocr_engine_lang, $folder, $storage)
 
 Recognize text from the image file in the storage and import it to HTML format.
 
@@ -18,21 +18,18 @@ Recognize text from the image file in the storage and import it to HTML format.
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Client\Invoker\Api\OcrApi(
-    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
-    // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
-);
+$apiInstance = new Client\Invoker\Api\HtmlApi();
+
 $name = "name_example"; // string | The image file name.
 $ocr_engine_lang = "en"; // string | OCR engine language - language
 $folder = "folder_example"; // string | The source image folder.
 $storage = "storage_example"; // string | The source image storage.
 
 try {
-    $result = $apiInstance->ocrGetRecognizeAndImportToHtml($name, $ocr_engine_lang, $folder, $storage);
+    $result = $apiInstance->GetRecognizeAndImportToHtml($name, $ocr_engine_lang, $folder, $storage);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling OcrApi->ocrGetRecognizeAndImportToHtml: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling OcrApi->GetRecognizeAndImportToHtml: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -48,21 +45,17 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\SplFileObject**](../Model/\SplFileObject.md)
-
-### Authorization
-
-No authorization required
+**\SplFileObject**
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
  - **Accept**: multipart/form-data
 
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
-# **ocrGetRecognizeAndTranslateToHtml**
-> \SplFileObject ocrGetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder, $storage)
+# **GetRecognizeAndTranslateToHtml**
+> \SplFileObject GetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder, $storage)
 
 Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
 
@@ -71,11 +64,8 @@ Recognize text from the image file in the storage, import it to HTML format and 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Client\Invoker\Api\OcrApi(
-    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
-    // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
-);
+$apiInstance = new Client\Invoker\Api\HtmlApi();
+
 $name = "name_example"; // string | The image file name.
 $src_lang = "src_lang_example"; // string | Source language - also supposed as the OCR engine language.
 $res_lang = "res_lang_example"; // string | Result language.
@@ -83,10 +73,10 @@ $folder = "folder_example"; // string | The source image folder.
 $storage = "storage_example"; // string | The source image storage.
 
 try {
-    $result = $apiInstance->ocrGetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder, $storage);
+    $result = $apiInstance->GetRecognizeAndTranslateToHtml($name, $src_lang, $res_lang, $folder, $storage);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling OcrApi->ocrGetRecognizeAndTranslateToHtml: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling OcrApi->GetRecognizeAndTranslateToHtml: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -103,16 +93,12 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\SplFileObject**](../Model/\SplFileObject.md)
-
-### Authorization
-
-No authorization required
+**\SplFileObject**
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
  - **Accept**: multipart/form-data
 
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
