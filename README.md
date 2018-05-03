@@ -1,8 +1,20 @@
-# Aspose.HTML.Cloud SDK
+# Aspose HTML Cloud SDK 
+
+This repository contains Aspose.HTML Cloud SDK source code. This SDK allows you to work with Aspose.HTML Cloud REST APIs in your applications quickly and easily.
+
+See [API Reference](https://apireference.aspose.cloud/html/) for full API specification.
+
+## How to use the SDK?
+The complete source code is available in this repository folder, you can either directly use it in your project.
 
 ## Requirements
 
 PHP 5.5 and later
+
+### Prerequisites
+
+To use Aspose HTML for Cloud SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
+
 
 ## Installation & Usage
 ### Composer
@@ -33,6 +45,26 @@ Download the files and include `autoload.php`:
     require_once('/path/to/aspose-html-cloud-php/vendor/autoload.php');
 ```
 
+## Getting Started
+
+Before fill all fields in /setting/config.json   
+
+Example:   
+```json
+{
+    "basePath":"https://api.aspose.cloud/v1.1",
+    "authPath":"https://api.aspose.cloud/oauth2/token",
+    "apiKey":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "appSID":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+    "testResult":"\\testresult\\",
+    "testData":"\\testdata\\",
+	"remoteFolder":"HtmlTestDoc",
+	"defaultUserAgent":"Webkit",
+	"debugFile":"php://output",
+	"debug":false
+}
+```
+
 ## Tests
 
 To run the unit tests:
@@ -42,7 +74,6 @@ composer install
 ./vendor/bin/phpunit
 ```
 
-## Getting Started
 
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
@@ -53,15 +84,15 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $apiInstance = new Client\Invoker\Api\HtmlApi();
 
 $name = "name_example"; // string | Document name.
-$out_format = "out_format_example"; // string | Resulting image format.
-$width = 56; // int | Resulting image width.
-$height = 56; // int | Resulting image height.
-$left_margin = 56; // int | Left resulting image margin.
-$right_margin = 56; // int | Right resulting image margin.
-$top_margin = 56; // int | Top resulting image margin.
-$bottom_margin = 56; // int | Bottom resulting image margin.
-$x_resolution = 56; // int | Horizontal resolution of resulting image.
-$y_resolution = 56; // int | Vertical resolution of resulting image.
+$out_format = "png"; // string | Resulting image format.
+$width = 800; // int | Resulting image width.
+$height = 1000; // int | Resulting image height.
+$left_margin = 10; // int | Left resulting image margin.
+$right_margin = 10; // int | Right resulting image margin.
+$top_margin = 10; // int | Top resulting image margin.
+$bottom_margin = 10; // int | Bottom resulting image margin.
+$x_resolution = 300; // int | Horizontal resolution of resulting image.
+$y_resolution = 300; // int | Vertical resolution of resulting image.
 $folder = "folder_example"; // string | The source document folder.
 $storage = "storage_example"; // string | The source document storage.
 
@@ -111,6 +142,3 @@ Class | Method | HTTP request | Description
 
 ## Author
 Alexander Makogon
-
-
-
