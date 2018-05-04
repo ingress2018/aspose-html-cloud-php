@@ -1,18 +1,14 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
-    "description": "",
-    "keywords": [
-        "swagger",
-        "php",
-        "sdk",
-        "api"
-    ],
-    "homepage": "http://swagger.io",
-    "license": "proprietary",
+    "description": 	"This repository contains Aspose Html Cloud SDK for PHP source code. Aspose Cloud SDK for PHP lets PHP developers convert and process a variety of file formats in the cloud quickly and easily.",
+    "name": 		"",
+    "type": 		"library",
+    "keywords" : 	["aspose", "php", "aspose cloud"],
+	"license": 		"MIT",
+    "homepage": "https://github.com/aspose-html-cloud/aspose-html-cloud-php",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Alexander Makogon",
+            "homepage": "https://github.com/..."
         }
     ],
     "require": {
@@ -33,5 +29,6 @@
     },
     "autoload-dev": {
         "psr-4": { "Client\\Invoker\\" : "test/" }
-    }
+    },
+     "version": "1.0.1"
 }
