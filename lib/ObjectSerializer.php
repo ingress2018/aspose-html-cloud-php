@@ -270,9 +270,9 @@ class ObjectSerializer
             // determine file name
             if (array_key_exists('Content-Disposition', $httpHeaders) &&
                 preg_match('/inline; filename=[\'"]?([^\'"\s]+)[\'"]?$/i', $httpHeaders['Content-Disposition'], $match)) {
-                $filename = Config::getConfig()['tempFolderPath'] . self::sanitizeFilename($match[1]);
+                $filename = sys_get_temp_dir() . self::sanitizeFilename($match[1]);
             } else {
-                $filename = tempnam(Config::getConfig()['tempFolderPath'], '');
+                $filename = tempnam(sys_get_temp_dir(), '');
             }
 
             $file = fopen($filename, 'w');

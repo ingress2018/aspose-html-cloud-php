@@ -38,27 +38,6 @@ class ConversionApiTest extends BaseTest
 {
 
     /**
-     * Setup before running each test case
-     */
-    public function setUp()
-    {
-    }
-
-    /**
-     * Clean up after running each test case
-     */
-    public function tearDown()
-    {
-    }
-
-    /**
-     * Clean up after running all test cases
-     */
-    public static function tearDownAfterClass()
-    {
-    }
-
-    /**
      * Test case for GetConvertDocumentToImage
      *
      * Convert the HTML document from the storage by its name to the specified image format..

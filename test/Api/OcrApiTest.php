@@ -38,27 +38,6 @@ class OcrApiTest extends BaseTest
 {
 
     /**
-     * Setup before running each test case
-     */
-    public function setUp()
-    {
-    }
-
-    /**
-     * Clean up after running each test case
-     */
-    public function tearDown()
-    {
-    }
-
-    /**
-     * Clean up after running all test cases
-     */
-    public static function tearDownAfterClass()
-    {
-    }
-
-    /**
      * Test case for GetRecognizeAndImportToHtml
      *
      * @dataProvider providerGetRecognizeAndImportToHtml

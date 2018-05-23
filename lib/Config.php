@@ -47,7 +47,12 @@ class Config
     {
         if (null === static::$client) {
             //For feel static fields
-            new Config();
+            if(func_num_args()){
+                $cfg = func_get_args();
+                new Config($cfg);
+            }else{
+                new Config();
+            }
         }
         return static::$client;
     }
@@ -59,7 +64,6 @@ class Config
     {
         if (null === static::$config) {
             static::$config = json_decode(file_get_contents(realpath(__DIR__ . '/../setting/config.json')), true);
-            static::$config += ['tempFolderPath' => sys_get_temp_dir()];
         }
 
         return static::$config;
@@ -71,7 +75,13 @@ class Config
 
     private function __construct()
     {
-        $cfg = static::getConfig();
+        if (func_num_args()){
+            //If configuration is present
+            $cfg = func_get_arg(0)[0];
+        }else{
+            // Else get configuration from external file
+            $cfg = static::getConfig();
+        }
 
         // Authorization client - this is used to request OAuth access tokens
         $reauth_client = new Client([

@@ -59,12 +59,18 @@ class HtmlApi
     public $config;
 
     /**
+     * @param Config Configuration
      * @param HeaderSelector $selector
      */
-    public function __construct(HeaderSelector $selector = null)
+    public function __construct($params = null, HeaderSelector $selector = null)
     {
-        $this->client = Config::getClient();
-        $this->config = Config::getConfig();
+        if($params == null){
+            $this->client = Config::getClient();
+            $this->config = Config::getConfig();
+        }else{
+            $this->client = Config::getClient($params);
+            $this->config = $params;
+        }
         $this->headerSelector = $selector ?: new HeaderSelector();
     }
 

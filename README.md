@@ -65,6 +65,32 @@ Example:
 }
 ```
 
+or pass configuration to constructor (see in tests - BaseTest.php) 
+
+```php
+        $configuration = array(
+            "basePath" => "https://api-qa.aspose.cloud/v1.1",
+            "authPath" => "https://api-qa.aspose.cloud/oauth2/token",
+            "apiKey" => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "appSID" => "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+            "testResult" => "\\testresult\\",
+            "testData" => "\\testdata\\",
+            "remoteFolder" => "HtmlTestDoc",
+            "defaultUserAgent" => "Webkit",
+            "debugFile" => "php://output",
+            "debug" => false
+        };
+            
+            self::$api = new HtmlApi($configuration);
+            self::$storage = new StorageApi();
+            self::$storage->apiClient->apiKey = $configuration['apiKey'];
+            self::$storage->apiClient->appSid = $configuration['appSID'];
+            self::$storage->apiClient->apiServer = $configuration['basePath'];
+// optional for test
+            self::$testFolder = realpath(__DIR__ . '/../..') . $configuration['testData'];
+            self::$testResult = realpath(__DIR__ . '/../..') . $configuration['testResult'];
+```
+
 ## Tests
 
 To run the unit tests:

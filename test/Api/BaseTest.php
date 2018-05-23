@@ -59,13 +59,39 @@ abstract class BaseTest extends \PHPUnit_Framework_TestCase
      */
     public static function setUpBeforeClass()
     {
-        self::$api = new HtmlApi();
-        self::$storage = new StorageApi();
-        self::$storage->apiClient->apiKey = self::$api->config['apiKey'];
-        self::$storage->apiClient->appSid = self::$api->config['appSID'];
-        self::$storage->apiClient->apiServer = self::$api->config['basePath'];
-        self::$testFolder = realpath(__DIR__ . '/../..') . self::$api->config['testData'];
-        self::$testResult = realpath(__DIR__ . '/../..') . self::$api->config['testResult'];
+
+// Configuration - pass by constructor
+//        $configuration = array(
+//            "basePath" => "https://api.aspose.cloud/v1.1",
+//            "authPath" => "https://api.aspose.cloud/oauth2/token",
+//            "apiKey" => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+//            "appSID" => "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+//            "testResult" => "\\testresult\\",
+//            "testData" => "\\testdata\\",
+//            "remoteFolder" => "HtmlTestDoc",
+//            "defaultUserAgent" => "Webkit",
+//            "debugFile" => "php://output",
+//            "debug" => false
+//        );
+
+        if (isset($configuration)){
+            self::$api = new HtmlApi($configuration);
+            self::$storage = new StorageApi();
+            self::$storage->apiClient->apiKey = $configuration['apiKey'];
+            self::$storage->apiClient->appSid = $configuration['appSID'];
+            self::$storage->apiClient->apiServer = $configuration['basePath'];
+            self::$testFolder = realpath(__DIR__ . '/../..') . $configuration['testData'];
+            self::$testResult = realpath(__DIR__ . '/../..') . $configuration['testResult'];
+
+        }else{
+            self::$api = new HtmlApi();
+            self::$storage = new StorageApi();
+            self::$storage->apiClient->apiKey = self::$api->config['apiKey'];
+            self::$storage->apiClient->appSid = self::$api->config['appSID'];
+            self::$storage->apiClient->apiServer = self::$api->config['basePath'];
+            self::$testFolder = realpath(__DIR__ . '/../..') . self::$api->config['testData'];
+            self::$testResult = realpath(__DIR__ . '/../..') . self::$api->config['testResult'];
+        }
     }
 
     public function uploadFile($filename, $uploadFolder = null)

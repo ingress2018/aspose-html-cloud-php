@@ -39,27 +39,6 @@ class DocumentApiTest extends BaseTest
 {
 
     /**
-     * Setup before running each test case
-     */
-    public function setUp()
-    {
-    }
-
-    /**
-     * Clean up after running each test case
-     */
-    public function tearDown()
-    {
-    }
-
-    /**
-     * Clean up after running all test cases
-     */
-    public static function tearDownAfterClass()
-    {
-    }
-
-    /**
      * Test case for GetDocument
      *
      * Return the HTML document by the name from default or specified storage.
