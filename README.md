@@ -26,11 +26,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
+      "url": "https://github.com/aspose-html-cloud/aspose-html-cloud-php.git"
     }
   ],
   "require": {
-    "GIT_USER_ID/GIT_REPO_ID": "*@dev"
+    "aspose-html-cloud/aspose-html-cloud-php.git": "*@dev"
   }
 }
 ```
