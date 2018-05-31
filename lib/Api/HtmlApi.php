@@ -37,6 +37,7 @@ require_once('ConversionApi.php');
 require_once('DocumentApi.php');
 require_once('OcrApi.php');
 require_once('TranslationApi.php');
+require_once('SummarizationApi.php');
 
 /**
  * HtmlApi Class Doc Comment
@@ -46,7 +47,7 @@ require_once('TranslationApi.php');
  */
 class HtmlApi
 {
-    use ConversionApi,DocumentApi,OcrApi,TranslationApi;
+    use ConversionApi,DocumentApi,OcrApi,TranslationApi,SummarizationApi;
 
     /**
      * @var ClientInterface

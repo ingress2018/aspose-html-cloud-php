@@ -151,6 +151,8 @@ Class | Method | HTTP request | Description
 *OcrApi* | [**GetRecognizeAndTranslateToHtml**](docs/Api/OcrApi.md#Getrecognizeandtranslatetohtml) | **GET** /html/{name}/ocr/translate/{srcLang}/{resLang} | Recognize text from the image file in the storage, import it to HTML format and translate to specified language.
 *TranslationApi* | [**GetTranslateDocument**](docs/Api/TranslationApi.md#Gettranslatedocument) | **GET** /html/{name}/translate/{srcLang}/{resLang} | Translate the HTML document specified by the name from default or specified storage.
 *TranslationApi* | [**GetTranslateDocumentByUrl**](docs/Api/TranslationApi.md#Gettranslatedocumentbyurl) | **GET** /html/translate/{srcLang}/{resLang} | Translate the HTML document from Web specified by its URL.
+*SummarizationApi* | [**GetDetectHtmlKeywords**](docs/Api/SummarizationApi.md#getdetecthtmlkeywords) | **GET** /html/{name}/summ/keywords | Get the HTML document keywords using the keyword detection service.
+*SummarizationApi* | [**GetDetectHtmlKeywordsByUrl**](docs/Api/SummarizationApi.md#getdetecthtmlkeywordsbyurl) | **GET** /html/summ/keywords | Get the keywords from HTML document from Web specified by its URL using the keyword detection service
 
 
 ## Documentation For Authorization

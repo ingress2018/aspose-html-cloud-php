@@ -1,4 +1,4 @@
-# Client\Invoker\DocumentApi
+# Client\Invoker\Api\DocumentApi
 
 All URIs are relative to *https://api.aspose.cloud/v1.1*
 
