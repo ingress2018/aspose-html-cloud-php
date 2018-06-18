@@ -75,6 +75,7 @@ class Config
 
     private function __construct()
     {
+        date_default_timezone_set('UTC');
         if (func_num_args()){
             //If configuration is present
             $cfg = func_get_arg(0)[0];

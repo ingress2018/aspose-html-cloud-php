@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
-    'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
-    'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
+    'BaseTest' => array($vendorDir . '/aspose/storage-sdk-php/tests'),
     'Aspose' => array($vendorDir . '/aspose/storage-sdk-php/src'),
 );

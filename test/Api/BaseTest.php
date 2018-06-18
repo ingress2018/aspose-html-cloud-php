@@ -26,10 +26,11 @@
 * --------------------------------------------------------------------------------------------------------------------
 */
 
+
 namespace Client\Invoker\Api;
 
-use Aspose\Storage\StorageApi;
-
+use Aspose\Storage\Api\StorageApi;
+use Aspose\Storage\Model\Requests;
 
 abstract class BaseTest extends \PHPUnit_Framework_TestCase
 {
@@ -76,19 +77,26 @@ abstract class BaseTest extends \PHPUnit_Framework_TestCase
 
         if (isset($configuration)){
             self::$api = new HtmlApi($configuration);
-            self::$storage = new StorageApi();
-            self::$storage->apiClient->apiKey = $configuration['apiKey'];
-            self::$storage->apiClient->appSid = $configuration['appSID'];
-            self::$storage->apiClient->apiServer = $configuration['basePath'];
+            $storage_cfg = new \Aspose\Storage\Configuration();
+            $storage_cfg->setAppKey($configuration['apiKey'])->
+                setAppSid($configuration['appSID'])->
+                setHost("http://sikorsky-js3.dynabic.com:9083/");
+
+            self::$storage = new StorageApi($storage_cfg);
+
             self::$testFolder = realpath(__DIR__ . '/../..') . $configuration['testData'];
             self::$testResult = realpath(__DIR__ . '/../..') . $configuration['testResult'];
 
         }else{
             self::$api = new HtmlApi();
-            self::$storage = new StorageApi();
-            self::$storage->apiClient->apiKey = self::$api->config['apiKey'];
-            self::$storage->apiClient->appSid = self::$api->config['appSID'];
-            self::$storage->apiClient->apiServer = self::$api->config['basePath'];
+
+            $storage_cfg = new \Aspose\Storage\Configuration();
+            $storage_cfg->setAppKey(self::$api->config['apiKey'])->
+                setAppSid(self::$api->config['appSID'])->
+                setHost("http://sikorsky-js3.dynabic.com:9083/");
+
+            self::$storage = new StorageApi($storage_cfg);
+
             self::$testFolder = realpath(__DIR__ . '/../..') . self::$api->config['testData'];
             self::$testResult = realpath(__DIR__ . '/../..') . self::$api->config['testResult'];
         }
@@ -97,13 +105,22 @@ abstract class BaseTest extends \PHPUnit_Framework_TestCase
     public function uploadFile($filename, $uploadFolder = null)
     {
         $folder = $uploadFolder ?: self::$api->config['remoteFolder'];
+        $path = $folder . "/" . $filename;
+        $versionId = null;
+        $storage = null;
+        $file = self::$testFolder . $filename;
+        $request = new Requests\PutCreateRequest($path, $file, $versionId, $storage);
 
         // Upload file to storage
-        self::$storage->PutCreate($folder . "/" . $filename, null, null, self::$testFolder . $filename);
+        $result = self::$storage->putCreate($request);
+        $this->assertEquals(200, $result->getCode());
+
 
         //Assert - file exist
-        $res = self::$storage->GetIsExist($folder . "/" . $filename, null, null);
-        $this->assertEquals(200,$res->Code,"Error occured while uploading document");
-        $this->assertTrue($res->FileExist->IsExist,"Error occured while uploading document");
-    }
+        $request = new Requests\GetIsExistRequest($path, $versionId, $storage);
+
+        $result = self::$storage->getIsExist($request);
+        $this->assertEquals(200, $result->getCode());
+        $this->assertTrue($result->getFileExist()["isExist"]);
+   }
 }

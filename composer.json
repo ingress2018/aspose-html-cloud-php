@@ -17,7 +17,7 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^6.2",
-        "aspose/storage-sdk-php": "^1.0",
+        "aspose/storage-sdk-php": "^18.4",
         "kamermans/guzzle-oauth2-subscriber": "^1.0"
     },
     "require-dev": {

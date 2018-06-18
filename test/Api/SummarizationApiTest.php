@@ -51,10 +51,11 @@ class SummarizationApiTest extends BaseTest
     {
         $this->uploadFile($fileName);
         $folder = self::$api->config['remoteFolder'];
+        $storage = null;
 
 
         //Request to server Api
-        $result = self::$api->GetDetectHtmlKeywords($fileName, null, $folder);
+        $result = self::$api->GetDetectHtmlKeywords($fileName, $folder, $storage);
 
         $this->assertTrue($result->isFile(),"Error result after recognize");
         $this->assertTrue($result->getSize() > 0,"Zero result");
